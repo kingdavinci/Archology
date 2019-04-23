@@ -11,7 +11,7 @@ using UnityEngine.UI;
 //
 public class MenuButtons : MonoBehaviour
 {
-    public Slider healthbar;
+    //public Slider healthbar;
     public GameObject PauseMenu;
     public GameObject UI;
     public GameObject DifficultySettings;
