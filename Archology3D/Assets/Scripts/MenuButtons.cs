@@ -15,11 +15,19 @@ public class MenuButtons : MonoBehaviour
     public GameObject PauseMenu;
     public GameObject UI;
     public GameObject DifficultySettings;
+    public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.P) & Time.timeScale == 1)
+        {
+            Pause();
+        }
+    }
     // pause button
     public void Pause()
     {
         if (Time.timeScale == 1)
         {
+            LockCursorOff();
             Time.timeScale = 0;
             //make pause menu visible
             PauseMenu.GetComponent<Canvas>().enabled = true;
@@ -29,6 +37,7 @@ public class MenuButtons : MonoBehaviour
         {
             //unpause
             Resume();
+            LockCursorOn();
         }
 
     }
@@ -45,6 +54,7 @@ public class MenuButtons : MonoBehaviour
     // resume button
     public void Resume()
     {
+        LockCursorOn();
         Time.timeScale = 1;
         UI.GetComponent<Canvas>().enabled = true;
         PauseMenu.GetComponent<Canvas>().enabled = false;
@@ -112,5 +122,17 @@ public class MenuButtons : MonoBehaviour
    public void Backtomenu()
     {
         SceneManager.LoadScene("TitleScreen");
+    }
+    // lock cursor and unlock cursor
+    public void LockCursorOn()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
+    }
+    public void LockCursorOff()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
