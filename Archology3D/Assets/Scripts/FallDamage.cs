@@ -4,17 +4,42 @@ using UnityEngine;
 
 public class FallDamage : MonoBehaviour
 {
-    //private RigidbodyFirstPersonController score = GetComponent<RigidbodyFirstPersonController>();
-    //bool Grounded = ;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool grounded;
+    private float airTime;
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        if (grounded == false)
+        {
+            airTime += Time.deltaTime;
+        }
+
+       /* if (airTime >= 5.0)
+        {
+            playerHP -= 5.0;
+        }*/
     }
+
+    //are you on the ground
+    void OnCollisionEnter(Collision theCollision)
+    {
+        if (theCollision.gameObject.tag == "Ground")
+        {
+            grounded = true;
+            airTime = 0;
+        }
+    }
+
+    //if character is jumping
+    void OnCollisionExit(Collision theCollision)
+    {
+        if (theCollision.gameObject.tag == "Ground")
+        {
+            grounded = false;
+        }
+    }
+
+    //fall damage
+
 }
