@@ -16,6 +16,7 @@ public class PlayerHP : MonoBehaviour
 
      void Update()
     {
+        
         timer += Time.deltaTime;
 
         if (grounded == false)
@@ -26,11 +27,20 @@ public class PlayerHP : MonoBehaviour
             {
                 HP--;
                 Debug.Log("check");
+                Debug.Log(HP);
             }
         }
         else if (grounded == true)
         {
             airTime = 0;
+        }
+         if (HP <= 0 && grounded)
+        {
+            SceneManager.LoadScene("LoseScene");
+        }
+        if(HP <= -250)
+        {
+            SceneManager.LoadScene("LoseScene");
         }
 
         
@@ -58,12 +68,17 @@ public class PlayerHP : MonoBehaviour
         }
     }
     //are you on the ground
-    void OnCollisionEnter(Collision theCollision)
+    void OnCollisionEnter(Collision Collision)
     {
-        if (theCollision.gameObject.tag == "Ground")
+        if (Collision.gameObject.tag == "Ground")
         {
             grounded = true;
             Debug.Log("grounded");
+        }
+        else if(Collision.gameObject.tag == "Ground" && HP <=0)
+
+        {
+            SceneManager.LoadScene("LoseScene");
         }
     }
 
@@ -76,6 +91,7 @@ public class PlayerHP : MonoBehaviour
             Debug.Log("ungrounded");
         }
     }
+
 
 
 }
