@@ -15,8 +15,16 @@ public class MenuButtons : MonoBehaviour
     public GameObject PauseMenu;
     public GameObject UI;
     public GameObject DifficultySettings;
+    public int diff = 1;
+    public void Start()
+    {
+        LockCursorOff();
+      //  PlayerPrefs.SetInt("Difficulty", diff);
+        diff = PlayerPrefs.GetInt("Difficulty");
+    }
     public void Update()
     {
+        Debug.Log(PlayerPrefs.GetInt("Difficulty"));
         if (Input.GetKeyDown(KeyCode.P) & Time.timeScale == 1)
         {
             Pause();
@@ -90,6 +98,7 @@ public class MenuButtons : MonoBehaviour
     //Easy Diffculty
     public void EasyMode()
     {
+        PlayerPrefs.SetInt("Difficulty", 1);
         PlayerPrefs.SetInt("Max HP", 5);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Resume();
@@ -98,6 +107,7 @@ public class MenuButtons : MonoBehaviour
     //Normal Diffculty
     public void NormalMode()
     {
+        PlayerPrefs.SetInt("Difficulty", 2);
         PlayerPrefs.SetInt("Max HP", 3);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Resume();
@@ -106,6 +116,7 @@ public class MenuButtons : MonoBehaviour
     //Hard Diffculty
     public void HardMode()
     {
+        PlayerPrefs.SetInt("Difficulty", 3);
         PlayerPrefs.SetInt("Max HP", 1);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Resume();
@@ -121,7 +132,7 @@ public class MenuButtons : MonoBehaviour
    //WinScreen Not to Play again
    public void Backtomenu()
     {
-        SceneManager.LoadScene("TitleScreen");
+        SceneManager.LoadScene("TitleScene");
     }
     // lock cursor and unlock cursor
     public void LockCursorOn()
