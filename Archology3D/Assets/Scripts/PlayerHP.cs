@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class PlayerHP : MonoBehaviour
 {
+    public bool grounded;
+    private float airTime;
     public int HP = 10;
     public Text HPText;
   //  public Slider HPBar;
@@ -15,14 +17,30 @@ public class PlayerHP : MonoBehaviour
      void Update()
     {
         timer += Time.deltaTime;
+
+        if (grounded == false)
+        {
+            airTime += Time.deltaTime;
+            //Debug.Log(airTime);
+            if (airTime >= 2.0)
+            {
+                HP--;
+                Debug.Log("check");
+            }
+        }
+        else if (grounded == true)
+        {
+            airTime = 0;
+        }
+
+        
     }
     void Start()
     {
         HPText.GetComponent<Text>().text = "Health: " + HP;
-      //  HPBar.GetComponent<Slider>().value = HP;
+        //  HPBar.GetComponent<Slider>().value = HP;
     }
 
-   
 
     void OnCollisionStay(Collision collision)
     {
@@ -37,6 +55,25 @@ public class PlayerHP : MonoBehaviour
             {
                 SceneManager.LoadScene("LoseScene");
             }
+        }
+    }
+    //are you on the ground
+    void OnCollisionEnter(Collision theCollision)
+    {
+        if (theCollision.gameObject.tag == "Ground")
+        {
+            grounded = true;
+            Debug.Log("grounded");
+        }
+    }
+
+    //if character is jumping
+    void OnCollisionExit(Collision theCollision)
+    {
+        if (theCollision.gameObject.tag == "Ground")
+        {
+            grounded = false;
+            Debug.Log("ungrounded");
         }
     }
 

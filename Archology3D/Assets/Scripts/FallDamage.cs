@@ -15,9 +15,9 @@ public class FallDamage : MonoBehaviour
             airTime += Time.deltaTime;
         }
 
-       /* if (airTime >= 5.0)
+        /*if (airTime >= 5.0)
         {
-            playerHP -= 5.0;
+            HP -= 5.0;
         }*/
     }
 

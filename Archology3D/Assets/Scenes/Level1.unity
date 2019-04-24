@@ -2412,6 +2412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b59fa2836f825f346a11722cceb321fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grounded: 1
   HP: 10
   HPText: {fileID: 631976969}
 --- !u!43 &338888485
