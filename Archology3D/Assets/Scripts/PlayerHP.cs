@@ -26,6 +26,7 @@ public class PlayerHP : MonoBehaviour
             {
                 HP--;
                 Debug.Log("check");
+                Debug.Log(HP);
             }
         }
         else if (grounded == true)
@@ -44,7 +45,7 @@ public class PlayerHP : MonoBehaviour
 
     void OnCollisionStay(Collision collision)
     {
-        if (timer > 0.5f && collision.gameObject.tag == "Enemy" || timer > 0.5f && collision.gameObject.tag == "Boss")
+        if (timer > 0.5f && collision.gameObject.tag == "Enemy" || timer > 0.5f && collision.gameObject.tag == "Boss" || collision.gameObject.tag == "Ground")
             {
             timer = 0;
             HP--;
