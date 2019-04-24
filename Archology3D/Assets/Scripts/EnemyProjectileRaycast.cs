@@ -25,7 +25,7 @@ public class EnemyProjectileRaycast : MonoBehaviour
             //when calculating a vector from a to b
             //always do destination - start position
             GameObject Bullet = (GameObject)Instantiate(prefab, transform.position + offset, Quaternion.identity);
-            Bullet.GetComponent<Rigidbody2D>().velocity = shootDir;
+            Bullet.GetComponent<Rigidbody>().velocity = shootDir;
         }
     }
 }
