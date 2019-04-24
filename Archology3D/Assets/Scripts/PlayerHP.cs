@@ -16,6 +16,7 @@ public class PlayerHP : MonoBehaviour
 
      void Update()
     {
+        
         timer += Time.deltaTime;
 
         if (grounded == false)
@@ -33,6 +34,14 @@ public class PlayerHP : MonoBehaviour
         {
             airTime = 0;
         }
+         if (HP <= 0 && grounded)
+        {
+            SceneManager.LoadScene("LoseScene");
+        }
+        if(HP <= -250)
+        {
+            SceneManager.LoadScene("LoseScene");
+        }
 
         
     }
@@ -45,7 +54,7 @@ public class PlayerHP : MonoBehaviour
 
     void OnCollisionStay(Collision collision)
     {
-        if (timer > 0.5f && collision.gameObject.tag == "Enemy" || timer > 0.5f && collision.gameObject.tag == "Boss" || collision.gameObject.tag == "Ground")
+        if (timer > 0.5f && collision.gameObject.tag == "Enemy" || timer > 0.5f && collision.gameObject.tag == "Boss")
             {
             timer = 0;
             HP--;
@@ -59,12 +68,17 @@ public class PlayerHP : MonoBehaviour
         }
     }
     //are you on the ground
-    void OnCollisionEnter(Collision theCollision)
+    void OnCollisionEnter(Collision Collision)
     {
-        if (theCollision.gameObject.tag == "Ground")
+        if (Collision.gameObject.tag == "Ground")
         {
             grounded = true;
             Debug.Log("grounded");
+        }
+        else if(Collision.gameObject.tag == "Ground" && HP <=0)
+
+        {
+            SceneManager.LoadScene("LoseScene");
         }
     }
 
@@ -77,6 +91,7 @@ public class PlayerHP : MonoBehaviour
             Debug.Log("ungrounded");
         }
     }
+
 
 
 }
