@@ -18,6 +18,7 @@ public class MenuButtons : MonoBehaviour
     public int diff = 1;
     public void Start()
     {
+        Time.timeScale = 1;
         LockCursorOff();
       //  PlayerPrefs.SetInt("Difficulty", diff);
         diff = PlayerPrefs.GetInt("Difficulty");
