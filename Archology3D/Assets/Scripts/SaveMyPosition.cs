@@ -25,7 +25,7 @@ public class SaveMyPosition : MonoBehaviour
             Load();
         }
     }
-    void Save()
+    public void Save()
     {
         BinaryFormatter bf = new BinaryFormatter();
         FileStream file;
@@ -43,7 +43,7 @@ public class SaveMyPosition : MonoBehaviour
         bf.Serialize(file, data);
         file.Close();
     }
-    void Load()
+    public void Load()
     {
         if(File.Exists(savePath))
         {

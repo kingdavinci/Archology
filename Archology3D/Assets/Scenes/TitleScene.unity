@@ -211,6 +211,7 @@ GameObject:
   - component: {fileID: 228771564}
   - component: {fileID: 228771563}
   - component: {fileID: 228771562}
+  - component: {fileID: 228771565}
   m_Layer: 5
   m_Name: ContinueButton
   m_TagString: Untagged
@@ -281,12 +282,12 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 228771560}
-        m_MethodName: 
+      - m_Target: {fileID: 228771565}
+        m_MethodName: Load
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -331,6 +332,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 228771560}
   m_CullTransparentMesh: 0
+--- !u!114 &228771565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 228771560}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0ab36830bf2664c9dee8ad44dc03cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseMenu: {fileID: 0}
+  UI: {fileID: 0}
+  DifficultySettings: {fileID: 0}
+  diff: 1
 --- !u!1 &279665195
 GameObject:
   m_ObjectHideFlags: 0

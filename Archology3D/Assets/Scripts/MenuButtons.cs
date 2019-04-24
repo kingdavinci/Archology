@@ -148,6 +148,11 @@ public class MenuButtons : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
+    public void Load()
+    {
+        SaveMyPosition load = gameObject.GetComponent<SaveMyPosition>();
+        load.Load();
 
+    }
 
 }

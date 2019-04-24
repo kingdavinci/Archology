@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class FallDamage : MonoBehaviour
 {
-    public bool grounded;
+    /*public bool grounded;
     private float airTime;
 
 
@@ -18,7 +18,7 @@ public class FallDamage : MonoBehaviour
         /*if (airTime >= 5.0)
         {
             HP -= 5.0;
-        }*/
+        }
     }
 
     //are you on the ground
@@ -40,6 +40,6 @@ public class FallDamage : MonoBehaviour
         }
     }
 
-    //fall damage
+    fall damage*/
 
 }
