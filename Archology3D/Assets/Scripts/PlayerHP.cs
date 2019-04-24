@@ -16,21 +16,27 @@ public class PlayerHP : MonoBehaviour
 
      void Update()
     {
-        
+        HPText.GetComponent<Text>().text = "Health: " + HP;
         timer += Time.deltaTime;
 
         if (grounded == false)
         {
             airTime += Time.deltaTime;
             //Debug.Log(airTime);
-            if (airTime >= 2.0)
-            {
-                HP--;
-                Debug.Log("check");
-                Debug.Log(HP);
-            }
+           // if (airTime >= 2.0)
+          //  {
+           //     HP--;
+            //    Debug.Log("check");
+           //     Debug.Log(HP);
+           // }
         }
-        else if (grounded == true)
+        if (airTime >= 2.0 && grounded)
+        {
+            HP-= 10;
+            Debug.Log("check");
+            Debug.Log(HP);
+        }
+        if (grounded == true)
         {
             airTime = 0;
         }
