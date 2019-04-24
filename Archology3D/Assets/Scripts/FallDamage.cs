@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class FallDamage : MonoBehaviour
 {
-    private RigidbodyFirstPersonController score = GetComponent<RigidbodyFirstPersonController>();
-    bool Grounded = ;
+    //private RigidbodyFirstPersonController score = GetComponent<RigidbodyFirstPersonController>();
+    //bool Grounded = ;
     // Start is called before the first frame update
     void Start()
     {
