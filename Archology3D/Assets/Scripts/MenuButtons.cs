@@ -52,7 +52,9 @@ public class MenuButtons : MonoBehaviour
     // new game button
     public void NewGame()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("Level1");
+        LockCursorOn();
     }
     // quit button
     public void QuitGame()
