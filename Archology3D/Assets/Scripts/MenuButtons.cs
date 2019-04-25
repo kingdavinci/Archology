@@ -131,7 +131,6 @@ public class MenuButtons : MonoBehaviour
     {
         SceneManager.LoadScene("Level1");
     }
-
    //WinScreen Not to Play again
    public void Backtomenu()
     {
@@ -151,9 +150,13 @@ public class MenuButtons : MonoBehaviour
     }
     public void Load()
     {
-        SaveMyPosition load = gameObject.GetComponent<SaveMyPosition>();
-        load.Load();
-
+        SaveMyPosition saveMyPosition = gameObject.GetComponent<SaveMyPosition>();
+        saveMyPosition.Load();
+    }
+    public void Save()
+    {
+        SaveMyPosition saveMyPostion = gameObject.GetComponent<SaveMyPosition>();
+        saveMyPostion.Save();
     }
 
 }
