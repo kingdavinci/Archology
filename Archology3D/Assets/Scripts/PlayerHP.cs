@@ -30,7 +30,7 @@ public class PlayerHP : MonoBehaviour
            //     Debug.Log(HP);
            // }
         }
-        if (airTime >= 2.0 && grounded)
+        if (airTime >= 2.5 && grounded)
         {
             HP-= 10;
             Debug.Log("check");
