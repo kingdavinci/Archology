@@ -20,7 +20,7 @@ public class PlayerHP : MonoBehaviour
      void Update()
         
     {
-        Debug.Log(PlayerRB.velocity.y);
+      //  Debug.Log(PlayerRB.velocity.y);
         HPText.GetComponent<Text>().text = "Health: " + HP;
         timer += Time.deltaTime;
 
@@ -38,8 +38,8 @@ public class PlayerHP : MonoBehaviour
         if ( PlayerRB.velocity.y <= -12)
         {
             HP-= 10;
-            Debug.Log("check");
-            Debug.Log(HP);
+         //   Debug.Log("check");
+          //  Debug.Log(HP);
         }
         if (grounded == true)
         {
@@ -85,7 +85,7 @@ public class PlayerHP : MonoBehaviour
         if (Collision.gameObject.tag == "Ground")
         {
             grounded = true;
-            Debug.Log("grounded");
+           // Debug.Log("grounded");
         }
         else if(Collision.gameObject.tag == "Ground" && HP <=0)
 
@@ -100,7 +100,7 @@ public class PlayerHP : MonoBehaviour
         if (theCollision.gameObject.tag == "Ground")
         {
             grounded = false;
-            Debug.Log("ungrounded");
+            //Debug.Log("ungrounded");
         }
     }
 
