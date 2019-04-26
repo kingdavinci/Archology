@@ -11,7 +11,8 @@ public class PlayerHP : MonoBehaviour
     private float airTime;
     public int HP = 10;
     public Text HPText;
-    public float fallHeight = 7f;
+    //public float fallHeight = 7f;
+    float y = PlayerRB.velocity.y;
   //  public Slider HPBar;
    // public GameObject Deathcanvas;
     float timer = 0;
@@ -32,7 +33,7 @@ public class PlayerHP : MonoBehaviour
            //     Debug.Log(HP);
            // }
         }
-        if (airTime >= 2.5 && grounded &&)
+        if (airTime >= 2.5 && grounded && PlayerRB.velocity.y == 1)
         {
             HP-= 10;
             Debug.Log("check");
@@ -57,6 +58,7 @@ public class PlayerHP : MonoBehaviour
     {
         HPText.GetComponent<Text>().text = "Health: " + HP;
         //  HPBar.GetComponent<Slider>().value = HP;
+        PlayerRB = GetComponent<Rigidbody>();
     }
 
 
