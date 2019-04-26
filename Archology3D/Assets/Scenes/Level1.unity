@@ -2413,6 +2413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grounded: 1
+  PlayerRB: {fileID: 0}
   HP: 10
   HPText: {fileID: 631976969}
 --- !u!114 &336614036
@@ -23401,7 +23402,7 @@ PrefabInstance:
     - target: {fileID: 1876548837294278203, guid: 08533d43f1e42e347a39e656747fdffc,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1876548837864708752, guid: 08533d43f1e42e347a39e656747fdffc,
         type: 3}
