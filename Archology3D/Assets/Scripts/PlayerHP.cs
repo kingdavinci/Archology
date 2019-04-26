@@ -7,9 +7,11 @@ using UnityEngine.UI;
 public class PlayerHP : MonoBehaviour
 {
     public bool grounded;
+    public Rigidbody PlayerRB;
     private float airTime;
     public int HP = 10;
     public Text HPText;
+    public float fallHeight = 7f;
   //  public Slider HPBar;
    // public GameObject Deathcanvas;
     float timer = 0;
@@ -30,7 +32,7 @@ public class PlayerHP : MonoBehaviour
            //     Debug.Log(HP);
            // }
         }
-        if (airTime >= 2.5 && grounded)
+        if (airTime >= 2.5 && grounded &&)
         {
             HP-= 10;
             Debug.Log("check");

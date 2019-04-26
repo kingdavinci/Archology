@@ -43741,7 +43741,6 @@ GameObject:
   - component: {fileID: 2329253220207877066}
   - component: {fileID: 8683627754151642277}
   - component: {fileID: 8683627754151642276}
-  - component: {fileID: 8683627754151642279}
   - component: {fileID: 8683627754151642278}
   m_Layer: 0
   m_Name: bot
@@ -43802,19 +43801,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 64
   m_CollisionDetection: 0
---- !u!65 &8683627754151642279
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8683627754151642275}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.04, y: 0.030769443, z: 0.08002105}
-  m_Center: {x: 0.0023946357, y: 0.0016450756, z: -0.028908214}
 --- !u!1 &8730951614059213827
 GameObject:
   m_ObjectHideFlags: 0
