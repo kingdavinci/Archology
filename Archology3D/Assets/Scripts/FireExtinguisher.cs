@@ -13,7 +13,7 @@ public class FireExtinguisher : MonoBehaviour
         {
             if (Collision.gameObject.tag == "Weapon")
             {
-                
+                Destroy(gameObject);
             }
         }
     }

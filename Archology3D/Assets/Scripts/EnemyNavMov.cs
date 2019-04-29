@@ -31,3 +31,5 @@ public class EnemyNavMov : MonoBehaviour
         }
     }
 }
+//NavMeshAgent.Warp 
+//.transform.position
