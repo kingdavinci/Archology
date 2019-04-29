@@ -11,9 +11,9 @@ public class PlayerHP : MonoBehaviour
     private float airTime;
     public int HP = 10;
     public Text HPText;
-    //public float fallHeight = 7f;
-    //float y = PlayerRB.velocity.y;
-  //  public Slider HPBar;
+   // public float fallHeight = 7f;
+   // float y = PlayerRB.velocity.y;
+   // public Slider HPBar;
    // public GameObject Deathcanvas;
     float timer = 0;
 
@@ -35,7 +35,7 @@ public class PlayerHP : MonoBehaviour
            //     Debug.Log(HP);
            // }
         }
-        if ( PlayerRB.velocity.y <= -12)
+        if ( PlayerRB.velocity.y <= -15)
         {
             HP-= 10;
          //   Debug.Log("check");
@@ -45,16 +45,16 @@ public class PlayerHP : MonoBehaviour
         {
             airTime = 0;
         }
-         if (HP <= 0 && grounded)
+        if (HP <= 0 && grounded)
         {
             SceneManager.LoadScene("LoseScene");
         }
-        if(HP <= -250)
+        if(HP <= -10)
         {
             SceneManager.LoadScene("LoseScene");
         }
 
-        
+   
     }
     void Start()
     {
