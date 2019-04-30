@@ -17,9 +17,8 @@ public class PlayerHP : MonoBehaviour
    // public GameObject Deathcanvas;
     float timer = 0;
 
-     void Update()
-        
-    {
+     void Update()   
+     {
       //  Debug.Log(PlayerRB.velocity.y);
         HPText.GetComponent<Text>().text = "Health: " + HP;
         timer += Time.deltaTime;
@@ -53,9 +52,7 @@ public class PlayerHP : MonoBehaviour
         {
             SceneManager.LoadScene("LoseScene");
         }
-
-   
-    }
+     }
     void Start()
     {
         HPText.GetComponent<Text>().text = "Health: " + HP;
@@ -73,7 +70,6 @@ public class PlayerHP : MonoBehaviour
             HPText.GetComponent<Text>().text = "Health: " + HP;
            // HPBar.GetComponent<Slider>().value = HP;
             if (HP <= 0)
-
             {
                 SceneManager.LoadScene("LoseScene");
             }
