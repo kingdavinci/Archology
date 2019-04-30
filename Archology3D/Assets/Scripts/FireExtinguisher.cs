@@ -22,6 +22,14 @@ public class FireExtinguisher : MonoBehaviour
                 HasExtinguisher = true;
             }
         }
+        if (HasExtinguisher == true)
+        {
+            Extinguisher.SetActive(true);
+        }
+        if (HasExtinguisher == false)
+        {
+            Extinguisher.SetActive(false);
+        }
         RaycastHit hit;
         if ( HasExtinguisher == true && Input.GetButtonDown("Fire1") )
         {
