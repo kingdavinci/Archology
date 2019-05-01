@@ -11,7 +11,7 @@ public class Flashlight : MonoBehaviour
     {
         void OnCollisionEnter(Collision Collision)
         {
-            if (Collision.gameObject.tag == "flashlight")
+            if (Collision.gameObject.tag == "Player")
             {
                 Destroy(FlashLight);
                 HasFlashlight = true;
