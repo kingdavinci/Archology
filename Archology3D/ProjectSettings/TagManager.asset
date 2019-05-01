@@ -5,7 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+<<<<<<< HEAD
   - Weapon
+=======
+>>>>>>> 0c1e99e386500859cc55bee17150b3590c0df264
   - Enemy
   layers:
   - Default
