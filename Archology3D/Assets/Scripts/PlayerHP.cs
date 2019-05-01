@@ -34,11 +34,17 @@ public class PlayerHP : MonoBehaviour
            //     Debug.Log(HP);
            // }
         }
-        if ( PlayerRB.velocity.y <= -15)
+        if (timer >= 2.0 && PlayerRB.velocity.y <= -15)
         {
             HP-= 10;
+            timer = 0;
          //   Debug.Log("check");
           //  Debug.Log(HP);
+        }
+        if ( timer >= 1.0 && PlayerRB.velocity.y <= -15)
+        {
+            HP -= 5;
+            timer = 0;
         }
         if (grounded == true)
         {
