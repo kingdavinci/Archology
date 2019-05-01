@@ -43,18 +43,4 @@ public class FireExtinguisher : MonoBehaviour
         }
     }
 }
-/*Vector3 destination;
-            if (Physics.Raycast(camera.transform.position, camera.transform.forward, out hit))
-            {
-                destination = hit.point;
-            }
-            else
-            {
-                //still want to shoot
-                destination = camera.transform.position + 50 * camera.transform.forward;
-            }
-            Vector3 velocity = destination - transform.position;
-            velocity.Normalize();
-            GameObject projectile = Instantiate(prefab, transform.position, Quaternion.identity);
-            projectile.GetComponent<Rigidbody>().velocity = velocity * bulletSpeed;
-*/
+
