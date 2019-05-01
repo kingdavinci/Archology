@@ -4,34 +4,34 @@ using UnityEngine;
 
 public class EnemyChase : MonoBehaviour {
     public GameObject player;
-    public float chaseSpeed = 5.0f;
-    public float chaseTriggerDistance = 3.0f;
+    public float chaseSpeed = 15.0f;
+    public float chaseTriggerDistance = 30.0f;
     Vector3 startPosition;
     bool home = true;
-    public Vector3 paceDirection = new Vector3(0, 0, 0);
+    public Vector3 paceDirection;
     public float paceDistance = 3.0f;
     public float paceSpeed = 2.0f;
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start() {
         player = GameObject.FindGameObjectWithTag("Player");
         startPosition = transform.position;
         paceDirection.Normalize();
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update() {
         Vector3 playerPosition = player.transform.position;
         // vector from the enemy position to the player position
         Vector3 chaseDirection = playerPosition - transform.position;
         // if the player is 4 away and the trigger distance is 5 then start chasing
-        if(chaseDirection.magnitude < chaseTriggerDistance)
-            {
+        if (chaseDirection.magnitude < chaseTriggerDistance)
+        {
             //Chase because the player is close to the enemy
             home = false;
             chaseDirection.Normalize();
             GetComponent<Rigidbody>().velocity = chaseDirection * chaseSpeed;
             // runs if the player is not close enough to the enemy
-        }else if(home == false)
+        } else if (home == false)
         {
             //see how far way we are from home
             Vector3 homeDirection = startPosition - transform.position;
@@ -41,7 +41,7 @@ public class EnemyChase : MonoBehaviour {
                 home = true;
                 transform.position = startPosition;
                 GetComponent<Rigidbody>().velocity = new Vector3(0, -30, 0);
-            }else
+            } else
             {
                 //go home
                 homeDirection.Normalize();
@@ -62,5 +62,14 @@ public class EnemyChase : MonoBehaviour {
             paceDirection.Normalize();
             GetComponent<Rigidbody>().velocity = paceDirection * paceSpeed;
         }
-	}
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            //paceDirection = new Vector3(0, -7, 0);
+            chaseSpeed = -7.0f;
+        }
+    }
 }
