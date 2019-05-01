@@ -64,6 +64,21 @@ public class EnemyChase : MonoBehaviour {
         }
     }
 
+    public void OnTriggerEnter(Collider collision)
+    {
+        Debug.Log(collision.gameObject.tag);
+        if (collision.gameObject.tag == "Player")
+        {
+            chaseSpeed = 0.0f;
+            Debug.Log("hit");
+            paceSpeed = 0;
+        }
+    }
+    public void OnTriggerExit(Collider collision)
+    {
+        chaseSpeed = 15.0f;
+        paceSpeed = 2.0f;
+    }
     private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.tag == "Player")
