@@ -21,19 +21,31 @@ public class NavMeshAgentTurnOff : MonoBehaviour
     }
     private void OnCollisionStay(Collision collision)
     {
-        if(collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player")
+        {
+            agent.enabled = false;
+            GetComponent<EnemyNavMov>().enabled = false;
+        }
+        if (collision.gameObject.tag == "ground" && !(collision.gameObject.tag == "Player"))
+        {
+            agent.enabled = true;
+            GetComponent<EnemyNavMov>().enabled = true;
+        }
+    }
+    private void OnCollisionExit(Collision collision)
+    {
+        //if(collision.gameObject.tag == "ground")
+        {
+           // agent.enabled = false;
+           // GetComponent<EnemyNavMov>().enabled = false;
+        }
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(!(collision.gameObject.tag == "ground"))
         {
             agent.enabled = false;
             GetComponent<EnemyNavMov>().enabled = false;
         }
     }
-    private void OnCollisionExit(Collision collision)
-    {
-        if(collision.gameObject.tag == "Player")
-        {
-            //agent.enabled = true;
-            //GetComponent<EnemyNavMov>().enabled = true ;
-        }
-    }
-
 }
