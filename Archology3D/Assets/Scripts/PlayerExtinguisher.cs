@@ -9,7 +9,12 @@ public class PlayerExtinguisher : MonoBehaviour
     public bool HasExtinguisher;
     public float bulletSpeed = 100.0f;
     public GameObject prefab;
-   
+
+    void Start()
+    {
+        camera = Camera.main;
+    }
+
     void Update()
     {
         if (HasExtinguisher == true)
@@ -20,12 +25,11 @@ public class PlayerExtinguisher : MonoBehaviour
         {
             Extinguisher.SetActive(false);
         }
-        RaycastHit hit;
+        //RaycastHit hit;
         Vector3 destination;
         if (HasExtinguisher == true && Input.GetButtonDown("Fire1"))
         {
-            
-            destination = camera.transform.position + 50 * camera.transform.forward;
+            destination = camera.transform.position + (50 * camera.transform.forward);
             Vector3 velocity = destination - transform.position;
             velocity.Normalize();
             GameObject projectile = Instantiate(prefab, transform.position, Quaternion.identity);
