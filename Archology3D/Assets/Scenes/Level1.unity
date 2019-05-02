@@ -119,7 +119,7 @@ NavMeshSettings:
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 5d157773056327f43a9ee6c7508f542a, type: 2}
 --- !u!64 &4356367
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -154,7 +154,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14430
+  m_Name: pb_Mesh429634
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -317,7 +317,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14608
+  m_Name: pb_Mesh429816
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -810,7 +810,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14196
+  m_Name: pb_Mesh429398
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -984,7 +984,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &151594234
 Transform:
@@ -1381,7 +1381,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14562
+  m_Name: pb_Mesh429768
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -1538,6 +1538,24 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &219997141 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2533918269484994498, guid: 09de9541e9e868045afbe58c817367f2,
+    type: 3}
+  m_PrefabInstance: {fileID: 654054685}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &219997147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 219997141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae1841dec7f39a34ebd244ce1aebdfe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &245230284
 GameObject:
   m_ObjectHideFlags: 0
@@ -2176,7 +2194,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14382
+  m_Name: pb_Mesh429588
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2339,7 +2357,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13954
+  m_Name: pb_Mesh429156
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2818,7 +2836,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14662
+  m_Name: pb_Mesh429870
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3039,7 +3057,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &367797551
 Transform:
@@ -4196,7 +4214,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13996
+  m_Name: pb_Mesh429198
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4370,7 +4388,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!4 &433000150
 Transform:
@@ -4465,7 +4483,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14240
+  m_Name: pb_Mesh429442
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4656,7 +4674,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14526
+  m_Name: pb_Mesh429728
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5317,7 +5335,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14010
+  m_Name: pb_Mesh429210
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6560,7 +6578,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14348
+  m_Name: pb_Mesh429550
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6737,7 +6755,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14416
+  m_Name: pb_Mesh429622
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7723,7 +7741,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14486
+  m_Name: pb_Mesh429692
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8202,7 +8220,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13928
+  m_Name: pb_Mesh429128
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8365,7 +8383,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14160
+  m_Name: pb_Mesh429362
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -8528,7 +8546,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14282
+  m_Name: pb_Mesh429486
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10459,7 +10477,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14620
+  m_Name: pb_Mesh429830
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10636,7 +10654,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13940
+  m_Name: pb_Mesh429140
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -10799,7 +10817,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14470
+  m_Name: pb_Mesh429676
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -11910,7 +11928,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14634
+  m_Name: pb_Mesh429844
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12784,7 +12802,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14442
+  m_Name: pb_Mesh429646
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -12947,7 +12965,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14174
+  m_Name: pb_Mesh429376
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13110,7 +13128,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14294
+  m_Name: pb_Mesh429498
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13603,7 +13621,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13890
+  m_Name: pb_Mesh429090
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13766,7 +13784,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14394
+  m_Name: pb_Mesh429602
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -13929,7 +13947,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh13914
+  m_Name: pb_Mesh429114
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14092,7 +14110,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14116
+  m_Name: pb_Mesh429320
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14255,7 +14273,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14456
+  m_Name: pb_Mesh429662
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -14418,7 +14436,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14092
+  m_Name: pb_Mesh429296
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15213,7 +15231,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14546
+  m_Name: pb_Mesh429752
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15692,7 +15710,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14328
+  m_Name: pb_Mesh429532
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -15887,7 +15905,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14022
+  m_Name: pb_Mesh429222
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -16998,7 +17016,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14576
+  m_Name: pb_Mesh429782
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19191,7 +19209,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14068
+  m_Name: pb_Mesh429272
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19354,7 +19372,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14252
+  m_Name: pb_Mesh429454
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -19522,7 +19540,7 @@ GameObject:
   - component: {fileID: 1871477509}
   m_Layer: 0
   m_Name: stairs
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19953,7 +19971,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14500
+  m_Name: pb_Mesh14968
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20116,7 +20134,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14308
+  m_Name: pb_Mesh429512
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -20925,7 +20943,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14370
+  m_Name: pb_Mesh429576
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21404,7 +21422,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14142
+  m_Name: pb_Mesh429344
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21567,7 +21585,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14590
+  m_Name: pb_Mesh429796
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -21744,7 +21762,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14104
+  m_Name: pb_Mesh429308
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22223,7 +22241,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14210
+  m_Name: pb_Mesh429412
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -22702,7 +22720,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14270
+  m_Name: pb_Mesh429474
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23271,7 +23289,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14222
+  m_Name: pb_Mesh429424
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -23936,7 +23954,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14512
+  m_Name: pb_Mesh429716
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -24331,10 +24349,10 @@ GameObject:
   - component: {fileID: 334586306078748892}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586306078748892
 MeshCollider:
@@ -24364,10 +24382,10 @@ GameObject:
   - component: {fileID: 334586306177840389}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586306177840389
 MeshCollider:
@@ -24397,10 +24415,10 @@ GameObject:
   - component: {fileID: 334586306383997145}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586306383997145
 MeshCollider:
@@ -24430,10 +24448,10 @@ GameObject:
   - component: {fileID: 334586306427522190}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586306427522190
 MeshCollider:
@@ -24463,10 +24481,10 @@ GameObject:
   - component: {fileID: 334586306502389320}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586306502389320
 MeshCollider:
@@ -24496,10 +24514,10 @@ GameObject:
   - component: {fileID: 334586306699592264}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586306699592264
 MeshCollider:
@@ -24529,10 +24547,10 @@ GameObject:
   - component: {fileID: 334586306806028636}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586306806028636
 MeshCollider:
@@ -24562,10 +24580,10 @@ GameObject:
   - component: {fileID: 334586306964009079}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586306964009079
 MeshCollider:
@@ -24595,10 +24613,10 @@ GameObject:
   - component: {fileID: 334586307129365347}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586307129365347
 MeshCollider:
@@ -24628,10 +24646,10 @@ GameObject:
   - component: {fileID: 334586307154876948}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586307154876948
 MeshCollider:
@@ -24661,10 +24679,10 @@ GameObject:
   - component: {fileID: 334586307184305391}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586307184305391
 MeshCollider:
@@ -24694,10 +24712,10 @@ GameObject:
   - component: {fileID: 334586307407795739}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586307407795739
 MeshCollider:
@@ -24727,10 +24745,10 @@ GameObject:
   - component: {fileID: 334586307787535026}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586307787535026
 MeshCollider:
@@ -24760,10 +24778,10 @@ GameObject:
   - component: {fileID: 334586307875634416}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586307875634416
 MeshCollider:
@@ -24793,10 +24811,10 @@ GameObject:
   - component: {fileID: 334586307908959503}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586307908959503
 MeshCollider:
@@ -24826,10 +24844,10 @@ GameObject:
   - component: {fileID: 334586308014478712}
   m_Layer: 0
   m_Name: Cube.009
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &334586308014478712
 MeshCollider:
@@ -28633,10 +28651,10 @@ GameObject:
   - component: {fileID: 1355876593663502330}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876593663502330
 MeshCollider:
@@ -28666,10 +28684,10 @@ GameObject:
   - component: {fileID: 1355876593770986726}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876593770986726
 MeshCollider:
@@ -28699,10 +28717,10 @@ GameObject:
   - component: {fileID: 1355876593860455873}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876593860455873
 MeshCollider:
@@ -28732,10 +28750,10 @@ GameObject:
   - component: {fileID: 1355876594026729173}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876594026729173
 MeshCollider:
@@ -28765,10 +28783,10 @@ GameObject:
   - component: {fileID: 1355876594274978727}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876594274978727
 MeshCollider:
@@ -28798,10 +28816,10 @@ GameObject:
   - component: {fileID: 1355876594391895674}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876594391895674
 MeshCollider:
@@ -28831,10 +28849,10 @@ GameObject:
   - component: {fileID: 1355876594505126118}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876594505126118
 MeshCollider:
@@ -28864,10 +28882,10 @@ GameObject:
   - component: {fileID: 1355876594562167344}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876594562167344
 MeshCollider:
@@ -28897,10 +28915,10 @@ GameObject:
   - component: {fileID: 1355876594623452795}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876594623452795
 MeshCollider:
@@ -28930,10 +28948,10 @@ GameObject:
   - component: {fileID: 1355876594709234605}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876594709234605
 MeshCollider:
@@ -28963,10 +28981,10 @@ GameObject:
   - component: {fileID: 1355876594741445198}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876594741445198
 MeshCollider:
@@ -28996,10 +29014,10 @@ GameObject:
   - component: {fileID: 1355876594812767252}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876594812767252
 MeshCollider:
@@ -29029,10 +29047,10 @@ GameObject:
   - component: {fileID: 1355876595140651990}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876595140651990
 MeshCollider:
@@ -29062,10 +29080,10 @@ GameObject:
   - component: {fileID: 1355876595209218233}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876595209218233
 MeshCollider:
@@ -29095,10 +29113,10 @@ GameObject:
   - component: {fileID: 1355876595416980045}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876595416980045
 MeshCollider:
@@ -29128,10 +29146,10 @@ GameObject:
   - component: {fileID: 1355876595463316658}
   m_Layer: 0
   m_Name: Cube.010
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1355876595463316658
 MeshCollider:
@@ -29753,10 +29771,10 @@ GameObject:
   - component: {fileID: 1761335664785691955}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335664785691955
 MeshCollider:
@@ -29786,10 +29804,10 @@ GameObject:
   - component: {fileID: 1761335664806472656}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335664806472656
 MeshCollider:
@@ -29819,10 +29837,10 @@ GameObject:
   - component: {fileID: 1761335664867694908}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335664867694908
 MeshCollider:
@@ -29852,10 +29870,10 @@ GameObject:
   - component: {fileID: 1761335665276534161}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335665276534161
 MeshCollider:
@@ -29885,10 +29903,10 @@ GameObject:
   - component: {fileID: 1761335665375932976}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335665375932976
 MeshCollider:
@@ -29918,10 +29936,10 @@ GameObject:
   - component: {fileID: 1761335665473680335}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335665473680335
 MeshCollider:
@@ -29951,10 +29969,10 @@ GameObject:
   - component: {fileID: 1761335665603353175}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335665603353175
 MeshCollider:
@@ -29984,10 +30002,10 @@ GameObject:
   - component: {fileID: 1761335665814583846}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335665814583846
 MeshCollider:
@@ -30017,10 +30035,10 @@ GameObject:
   - component: {fileID: 1761335665861246971}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335665861246971
 MeshCollider:
@@ -30050,10 +30068,10 @@ GameObject:
   - component: {fileID: 1761335666034639789}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335666034639789
 MeshCollider:
@@ -30083,10 +30101,10 @@ GameObject:
   - component: {fileID: 1761335666162034682}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335666162034682
 MeshCollider:
@@ -30116,10 +30134,10 @@ GameObject:
   - component: {fileID: 1761335666242937191}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335666242937191
 MeshCollider:
@@ -30149,10 +30167,10 @@ GameObject:
   - component: {fileID: 1761335666314055015}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335666314055015
 MeshCollider:
@@ -30182,10 +30200,10 @@ GameObject:
   - component: {fileID: 1761335666543171195}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335666543171195
 MeshCollider:
@@ -30215,10 +30233,10 @@ GameObject:
   - component: {fileID: 1761335666570346328}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335666570346328
 MeshCollider:
@@ -30248,10 +30266,10 @@ GameObject:
   - component: {fileID: 1761335666740681796}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &1761335666740681796
 MeshCollider:
@@ -30348,6 +30366,11 @@ PrefabInstance:
         type: 3}
       propertyPath: chaseSpeed
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349995657367083447, guid: fe662cffcbbe1c5499f23ff51bb54892,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7349995657367083440, guid: fe662cffcbbe1c5499f23ff51bb54892,
         type: 3}
@@ -30597,7 +30620,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &2502203975310258200
 MeshCollider:
@@ -30883,10 +30906,10 @@ GameObject:
   - component: {fileID: 3019616619188376987}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616619188376987
 MeshCollider:
@@ -30916,10 +30939,10 @@ GameObject:
   - component: {fileID: 3019616619286417478}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616619286417478
 MeshCollider:
@@ -30949,10 +30972,10 @@ GameObject:
   - component: {fileID: 3019616619343547143}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616619343547143
 MeshCollider:
@@ -30982,10 +31005,10 @@ GameObject:
   - component: {fileID: 3019616619491233178}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616619491233178
 MeshCollider:
@@ -31015,10 +31038,10 @@ GameObject:
   - component: {fileID: 3019616619535854029}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616619535854029
 MeshCollider:
@@ -31048,10 +31071,10 @@ GameObject:
   - component: {fileID: 3019616619648023579}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616619648023579
 MeshCollider:
@@ -31081,10 +31104,10 @@ GameObject:
   - component: {fileID: 3019616619808974599}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616619808974599
 MeshCollider:
@@ -31114,10 +31137,10 @@ GameObject:
   - component: {fileID: 3019616619970803236}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616619970803236
 MeshCollider:
@@ -31147,10 +31170,10 @@ GameObject:
   - component: {fileID: 3019616620073112888}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616620073112888
 MeshCollider:
@@ -31180,10 +31203,10 @@ GameObject:
   - component: {fileID: 3019616620250018652}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616620250018652
 MeshCollider:
@@ -31213,10 +31236,10 @@ GameObject:
   - component: {fileID: 3019616620263997267}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616620263997267
 MeshCollider:
@@ -31246,10 +31269,10 @@ GameObject:
   - component: {fileID: 3019616620293145008}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616620293145008
 MeshCollider:
@@ -31279,10 +31302,10 @@ GameObject:
   - component: {fileID: 3019616620717578671}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616620717578671
 MeshCollider:
@@ -31312,10 +31335,10 @@ GameObject:
   - component: {fileID: 3019616620747233360}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616620747233360
 MeshCollider:
@@ -31345,10 +31368,10 @@ GameObject:
   - component: {fileID: 3019616620897949681}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616620897949681
 MeshCollider:
@@ -31378,10 +31401,10 @@ GameObject:
   - component: {fileID: 3019616621124120631}
   m_Layer: 0
   m_Name: Cube.000
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3019616621124120631
 MeshCollider:
@@ -31763,10 +31786,10 @@ GameObject:
   - component: {fileID: 3667633384109538450}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633384109538450
 MeshCollider:
@@ -31796,10 +31819,10 @@ GameObject:
   - component: {fileID: 3667633384296493209}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633384296493209
 MeshCollider:
@@ -31829,10 +31852,10 @@ GameObject:
   - component: {fileID: 3667633384334036582}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633384334036582
 MeshCollider:
@@ -31862,10 +31885,10 @@ GameObject:
   - component: {fileID: 3667633384616187782}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633384616187782
 MeshCollider:
@@ -31895,10 +31918,10 @@ GameObject:
   - component: {fileID: 3667633384715507301}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633384715507301
 MeshCollider:
@@ -31928,10 +31951,10 @@ GameObject:
   - component: {fileID: 3667633384803571771}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633384803571771
 MeshCollider:
@@ -31961,10 +31984,10 @@ GameObject:
   - component: {fileID: 3667633385114681341}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633385114681341
 MeshCollider:
@@ -31994,10 +32017,10 @@ GameObject:
   - component: {fileID: 3667633385339527056}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633385339527056
 MeshCollider:
@@ -32027,10 +32050,10 @@ GameObject:
   - component: {fileID: 3667633385372555857}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633385372555857
 MeshCollider:
@@ -32060,10 +32083,10 @@ GameObject:
   - component: {fileID: 3667633385485812941}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633385485812941
 MeshCollider:
@@ -32093,10 +32116,10 @@ GameObject:
   - component: {fileID: 3667633385559598599}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633385559598599
 MeshCollider:
@@ -32126,10 +32149,10 @@ GameObject:
   - component: {fileID: 3667633385671246420}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633385671246420
 MeshCollider:
@@ -32159,10 +32182,10 @@ GameObject:
   - component: {fileID: 3667633385785013201}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633385785013201
 MeshCollider:
@@ -32192,10 +32215,10 @@ GameObject:
   - component: {fileID: 3667633385825380557}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633385825380557
 MeshCollider:
@@ -32225,10 +32248,10 @@ GameObject:
   - component: {fileID: 3667633385998776810}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633385998776810
 MeshCollider:
@@ -32258,10 +32281,10 @@ GameObject:
   - component: {fileID: 3667633386097908478}
   m_Layer: 0
   m_Name: Cube.006
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &3667633386097908478
 MeshCollider:
@@ -33080,10 +33103,10 @@ GameObject:
   - component: {fileID: 4695666575010275200}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575010275200
 MeshCollider:
@@ -33113,10 +33136,10 @@ GameObject:
   - component: {fileID: 4695666575054838433}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575054838433
 MeshCollider:
@@ -33146,10 +33169,10 @@ GameObject:
   - component: {fileID: 4695666575131918820}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575131918820
 MeshCollider:
@@ -33179,10 +33202,10 @@ GameObject:
   - component: {fileID: 4695666575244216189}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575244216189
 MeshCollider:
@@ -33212,10 +33235,10 @@ GameObject:
   - component: {fileID: 4695666575342281514}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575342281514
 MeshCollider:
@@ -33245,10 +33268,10 @@ GameObject:
   - component: {fileID: 4695666575364273920}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575364273920
 MeshCollider:
@@ -33278,10 +33301,10 @@ GameObject:
   - component: {fileID: 4695666575597579748}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575597579748
 MeshCollider:
@@ -33311,10 +33334,10 @@ GameObject:
   - component: {fileID: 4695666575704259783}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575704259783
 MeshCollider:
@@ -33344,10 +33367,10 @@ GameObject:
   - component: {fileID: 4695666575878758355}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575878758355
 MeshCollider:
@@ -33377,10 +33400,10 @@ GameObject:
   - component: {fileID: 4695666575970236863}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666575970236863
 MeshCollider:
@@ -33410,10 +33433,10 @@ GameObject:
   - component: {fileID: 4695666576061303627}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666576061303627
 MeshCollider:
@@ -33443,10 +33466,10 @@ GameObject:
   - component: {fileID: 4695666576082089400}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666576082089400
 MeshCollider:
@@ -33476,10 +33499,10 @@ GameObject:
   - component: {fileID: 4695666576433861452}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666576433861452
 MeshCollider:
@@ -33509,10 +33532,10 @@ GameObject:
   - component: {fileID: 4695666576538358443}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666576538358443
 MeshCollider:
@@ -33542,10 +33565,10 @@ GameObject:
   - component: {fileID: 4695666576664534294}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666576664534294
 MeshCollider:
@@ -33575,10 +33598,10 @@ GameObject:
   - component: {fileID: 4695666576841030356}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &4695666576841030356
 MeshCollider:
@@ -37214,10 +37237,10 @@ GameObject:
   - component: {fileID: 6053153031845180676}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153031845180676
 MeshCollider:
@@ -37247,10 +37270,10 @@ GameObject:
   - component: {fileID: 6053153031888695517}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153031888695517
 MeshCollider:
@@ -37280,10 +37303,10 @@ GameObject:
   - component: {fileID: 6053153032000351136}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032000351136
 MeshCollider:
@@ -37313,10 +37336,10 @@ GameObject:
   - component: {fileID: 6053153032076995841}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032076995841
 MeshCollider:
@@ -37346,10 +37369,10 @@ GameObject:
   - component: {fileID: 6053153032209680726}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032209680726
 MeshCollider:
@@ -37379,10 +37402,10 @@ GameObject:
   - component: {fileID: 6053153032233770116}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032233770116
 MeshCollider:
@@ -37412,10 +37435,10 @@ GameObject:
   - component: {fileID: 6053153032466024352}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032466024352
 MeshCollider:
@@ -37445,10 +37468,10 @@ GameObject:
   - component: {fileID: 6053153032573195963}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032573195963
 MeshCollider:
@@ -37478,10 +37501,10 @@ GameObject:
   - component: {fileID: 6053153032746694063}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032746694063
 MeshCollider:
@@ -37511,10 +37534,10 @@ GameObject:
   - component: {fileID: 6053153032839697347}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032839697347
 MeshCollider:
@@ -37544,10 +37567,10 @@ GameObject:
   - component: {fileID: 6053153032895684919}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032895684919
 MeshCollider:
@@ -37577,10 +37600,10 @@ GameObject:
   - component: {fileID: 6053153032916459468}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153032916459468
 MeshCollider:
@@ -37610,10 +37633,10 @@ GameObject:
   - component: {fileID: 6053153033303341368}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153033303341368
 MeshCollider:
@@ -37643,10 +37666,10 @@ GameObject:
   - component: {fileID: 6053153033404168407}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153033404168407
 MeshCollider:
@@ -37676,10 +37699,10 @@ GameObject:
   - component: {fileID: 6053153033500489578}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153033500489578
 MeshCollider:
@@ -37709,10 +37732,10 @@ GameObject:
   - component: {fileID: 6053153033709473968}
   m_Layer: 0
   m_Name: Cube.011
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &6053153033709473968
 MeshCollider:
@@ -39448,10 +39471,10 @@ GameObject:
   - component: {fileID: 7469484622873542029}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484622873542029
 MeshCollider:
@@ -39481,10 +39504,10 @@ GameObject:
   - component: {fileID: 7469484622970533972}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484622970533972
 MeshCollider:
@@ -39514,10 +39537,10 @@ GameObject:
   - component: {fileID: 7469484623160706054}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484623160706054
 MeshCollider:
@@ -39547,10 +39570,10 @@ GameObject:
   - component: {fileID: 7469484623204212817}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484623204212817
 MeshCollider:
@@ -39580,10 +39603,10 @@ GameObject:
   - component: {fileID: 7469484623352227536}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484623352227536
 MeshCollider:
@@ -39613,10 +39636,10 @@ GameObject:
   - component: {fileID: 7469484623423343312}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484623423343312
 MeshCollider:
@@ -39646,10 +39669,10 @@ GameObject:
   - component: {fileID: 7469484623585350100}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484623585350100
 MeshCollider:
@@ -39679,10 +39702,10 @@ GameObject:
   - component: {fileID: 7469484623695886591}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484623695886591
 MeshCollider:
@@ -39712,10 +39735,10 @@ GameObject:
   - component: {fileID: 7469484623799114731}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484623799114731
 MeshCollider:
@@ -39745,10 +39768,10 @@ GameObject:
   - component: {fileID: 7469484624012389479}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484624012389479
 MeshCollider:
@@ -39778,10 +39801,10 @@ GameObject:
   - component: {fileID: 7469484624041939612}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484624041939612
 MeshCollider:
@@ -39811,10 +39834,10 @@ GameObject:
   - component: {fileID: 7469484624057360019}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484624057360019
 MeshCollider:
@@ -39844,10 +39867,10 @@ GameObject:
   - component: {fileID: 7469484624482974266}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484624482974266
 MeshCollider:
@@ -39877,10 +39900,10 @@ GameObject:
   - component: {fileID: 7469484624632182151}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484624632182151
 MeshCollider:
@@ -39910,10 +39933,10 @@ GameObject:
   - component: {fileID: 7469484624663344232}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484624663344232
 MeshCollider:
@@ -39943,10 +39966,10 @@ GameObject:
   - component: {fileID: 7469484624793017856}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7469484624793017856
 MeshCollider:
@@ -40710,10 +40733,10 @@ GameObject:
   - component: {fileID: 7839584460862052955}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584460862052955
 MeshCollider:
@@ -40743,10 +40766,10 @@ GameObject:
   - component: {fileID: 7839584460967436166}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584460967436166
 MeshCollider:
@@ -40776,10 +40799,10 @@ GameObject:
   - component: {fileID: 7839584461164905050}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584461164905050
 MeshCollider:
@@ -40809,10 +40832,10 @@ GameObject:
   - component: {fileID: 7839584461216867853}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584461216867853
 MeshCollider:
@@ -40842,10 +40865,10 @@ GameObject:
   - component: {fileID: 7839584461277267143}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584461277267143
 MeshCollider:
@@ -40875,10 +40898,10 @@ GameObject:
   - component: {fileID: 7839584461482649799}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584461482649799
 MeshCollider:
@@ -40908,10 +40931,10 @@ GameObject:
   - component: {fileID: 7839584461580694491}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584461580694491
 MeshCollider:
@@ -40941,10 +40964,10 @@ GameObject:
   - component: {fileID: 7839584461755702008}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584461755702008
 MeshCollider:
@@ -40974,10 +40997,10 @@ GameObject:
   - component: {fileID: 7839584461929167332}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584461929167332
 MeshCollider:
@@ -41007,10 +41030,10 @@ GameObject:
   - component: {fileID: 7839584461938192531}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584461938192531
 MeshCollider:
@@ -41040,10 +41063,10 @@ GameObject:
   - component: {fileID: 7839584461975735920}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584461975735920
 MeshCollider:
@@ -41073,10 +41096,10 @@ GameObject:
   - component: {fileID: 7839584462182694044}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584462182694044
 MeshCollider:
@@ -41106,10 +41129,10 @@ GameObject:
   - component: {fileID: 7839584462578964529}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584462578964529
 MeshCollider:
@@ -41139,10 +41162,10 @@ GameObject:
   - component: {fileID: 7839584462658639471}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584462658639471
 MeshCollider:
@@ -41172,10 +41195,10 @@ GameObject:
   - component: {fileID: 7839584462689867664}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584462689867664
 MeshCollider:
@@ -41205,10 +41228,10 @@ GameObject:
   - component: {fileID: 7839584462789410807}
   m_Layer: 0
   m_Name: Cube.007
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &7839584462789410807
 MeshCollider:
@@ -41238,10 +41261,10 @@ GameObject:
   - component: {fileID: 8100112628720481658}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112628720481658
 MeshCollider:
@@ -41271,10 +41294,10 @@ GameObject:
   - component: {fileID: 8100112628894019174}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112628894019174
 MeshCollider:
@@ -41304,10 +41327,10 @@ GameObject:
   - component: {fileID: 8100112629052211009}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629052211009
 MeshCollider:
@@ -41337,10 +41360,10 @@ GameObject:
   - component: {fileID: 8100112629150030933}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629150030933
 MeshCollider:
@@ -41370,10 +41393,10 @@ GameObject:
   - component: {fileID: 8100112629346901242}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629346901242
 MeshCollider:
@@ -41403,10 +41426,10 @@ GameObject:
   - component: {fileID: 8100112629434456359}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629434456359
 MeshCollider:
@@ -41436,10 +41459,10 @@ GameObject:
   - component: {fileID: 8100112629493711462}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629493711462
 MeshCollider:
@@ -41469,10 +41492,10 @@ GameObject:
   - component: {fileID: 8100112629647951099}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629647951099
 MeshCollider:
@@ -41502,10 +41525,10 @@ GameObject:
   - component: {fileID: 8100112629688344752}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629688344752
 MeshCollider:
@@ -41535,10 +41558,10 @@ GameObject:
   - component: {fileID: 8100112629798457550}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629798457550
 MeshCollider:
@@ -41568,10 +41591,10 @@ GameObject:
   - component: {fileID: 8100112629834928429}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629834928429
 MeshCollider:
@@ -41601,10 +41624,10 @@ GameObject:
   - component: {fileID: 8100112629970411156}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112629970411156
 MeshCollider:
@@ -41634,10 +41657,10 @@ GameObject:
   - component: {fileID: 8100112630196320598}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112630196320598
 MeshCollider:
@@ -41667,10 +41690,10 @@ GameObject:
   - component: {fileID: 8100112630400186937}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112630400186937
 MeshCollider:
@@ -41700,10 +41723,10 @@ GameObject:
   - component: {fileID: 8100112630418847282}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112630418847282
 MeshCollider:
@@ -41733,10 +41756,10 @@ GameObject:
   - component: {fileID: 8100112630439872717}
   m_Layer: 0
   m_Name: Cube.008
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8100112630439872717
 MeshCollider:
@@ -41892,7 +41915,7 @@ GameObject:
   - component: {fileID: 5248112009863313225}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41909,7 +41932,7 @@ GameObject:
   - component: {fileID: 5248112009558089520}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41926,7 +41949,7 @@ GameObject:
   - component: {fileID: 5248112009456017105}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41943,7 +41966,7 @@ GameObject:
   - component: {fileID: 5248112009653129359}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41960,7 +41983,7 @@ GameObject:
   - component: {fileID: 5248112008992453668}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41977,7 +42000,7 @@ GameObject:
   - component: {fileID: 5248112009049442000}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41994,7 +42017,7 @@ GameObject:
   - component: {fileID: 5248112009070360621}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42011,7 +42034,7 @@ GameObject:
   - component: {fileID: 5248112010873499996}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42045,7 +42068,7 @@ GameObject:
   - component: {fileID: 5248112011047866952}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42062,7 +42085,7 @@ GameObject:
   - component: {fileID: 5248112010533976933}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42079,7 +42102,7 @@ GameObject:
   - component: {fileID: 5248112010767278201}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42096,7 +42119,7 @@ GameObject:
   - component: {fileID: 5248112010301557881}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42113,7 +42136,7 @@ GameObject:
   - component: {fileID: 5248112010509823667}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42130,7 +42153,7 @@ GameObject:
   - component: {fileID: 5248112010378267366}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42147,7 +42170,7 @@ GameObject:
   - component: {fileID: 5248112010188822330}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42164,7 +42187,7 @@ GameObject:
   - component: {fileID: 5248112010146353893}
   m_Layer: 0
   m_Name: Lamp
-  m_TagString: Ground
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42411,7 +42434,7 @@ GameObject:
   - component: {fileID: 617619904}
   m_Layer: 0
   m_Name: twistedstairs (12)
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42607,10 +42630,10 @@ GameObject:
   - component: {fileID: 8629277199063885471}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277199063885471
 MeshCollider:
@@ -42640,10 +42663,10 @@ GameObject:
   - component: {fileID: 8629277199122220117}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277199122220117
 MeshCollider:
@@ -42673,10 +42696,10 @@ GameObject:
   - component: {fileID: 8629277199186665474}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277199186665474
 MeshCollider:
@@ -42706,10 +42729,10 @@ GameObject:
   - component: {fileID: 8629277199375859166}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277199375859166
 MeshCollider:
@@ -42739,10 +42762,10 @@ GameObject:
   - component: {fileID: 8629277199487531011}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277199487531011
 MeshCollider:
@@ -42772,10 +42795,10 @@ GameObject:
   - component: {fileID: 8629277199498451900}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277199498451900
 MeshCollider:
@@ -42805,10 +42828,10 @@ GameObject:
   - component: {fileID: 8629277199659235504}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277199659235504
 MeshCollider:
@@ -42838,10 +42861,10 @@ GameObject:
   - component: {fileID: 8629277199838368131}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277199838368131
 MeshCollider:
@@ -42871,10 +42894,10 @@ GameObject:
   - component: {fileID: 8629277199940602527}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277199940602527
 MeshCollider:
@@ -42904,10 +42927,10 @@ GameObject:
   - component: {fileID: 8629277200305888964}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277200305888964
 MeshCollider:
@@ -42937,10 +42960,10 @@ GameObject:
   - component: {fileID: 8629277200517065784}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277200517065784
 MeshCollider:
@@ -42970,10 +42993,10 @@ GameObject:
   - component: {fileID: 8629277200563131083}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277200563131083
 MeshCollider:
@@ -43003,10 +43026,10 @@ GameObject:
   - component: {fileID: 8629277200777338287}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277200777338287
 MeshCollider:
@@ -43036,10 +43059,10 @@ GameObject:
   - component: {fileID: 8629277200878876120}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277200878876120
 MeshCollider:
@@ -43069,10 +43092,10 @@ GameObject:
   - component: {fileID: 8629277200916329527}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277200916329527
 MeshCollider:
@@ -43102,10 +43125,10 @@ GameObject:
   - component: {fileID: 8629277200987650665}
   m_Layer: 0
   m_Name: Cube.005
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8629277200987650665
 MeshCollider:
@@ -43135,10 +43158,10 @@ GameObject:
   - component: {fileID: 8730951614059213828}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951614059213828
 MeshCollider:
@@ -43168,10 +43191,10 @@ GameObject:
   - component: {fileID: 8730951614232751904}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951614232751904
 MeshCollider:
@@ -43201,10 +43224,10 @@ GameObject:
   - component: {fileID: 8730951614339860019}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951614339860019
 MeshCollider:
@@ -43234,10 +43257,10 @@ GameObject:
   - component: {fileID: 8730951614437958951}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951614437958951
 MeshCollider:
@@ -43267,10 +43290,10 @@ GameObject:
   - component: {fileID: 8730951614558749505}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951614558749505
 MeshCollider:
@@ -43300,10 +43323,10 @@ GameObject:
   - component: {fileID: 8730951614646306464}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951614646306464
 MeshCollider:
@@ -43333,10 +43356,10 @@ GameObject:
   - component: {fileID: 8730951614875564746}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951614875564746
 MeshCollider:
@@ -43366,10 +43389,10 @@ GameObject:
   - component: {fileID: 8730951614882324125}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951614882324125
 MeshCollider:
@@ -43399,10 +43422,10 @@ GameObject:
   - component: {fileID: 8730951615069919236}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951615069919236
 MeshCollider:
@@ -43432,10 +43455,10 @@ GameObject:
   - component: {fileID: 8730951615096800502}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951615096800502
 MeshCollider:
@@ -43465,10 +43488,10 @@ GameObject:
   - component: {fileID: 8730951615265770315}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951615265770315
 MeshCollider:
@@ -43498,10 +43521,10 @@ GameObject:
   - component: {fileID: 8730951615302306476}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951615302306476
 MeshCollider:
@@ -43531,10 +43554,10 @@ GameObject:
   - component: {fileID: 8730951615441068852}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951615441068852
 MeshCollider:
@@ -43564,10 +43587,10 @@ GameObject:
   - component: {fileID: 8730951615701013163}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951615701013163
 MeshCollider:
@@ -43597,10 +43620,10 @@ GameObject:
   - component: {fileID: 8730951615721794648}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951615721794648
 MeshCollider:
@@ -43630,10 +43653,10 @@ GameObject:
   - component: {fileID: 8730951615774007391}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Ground
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 8
   m_IsActive: 1
 --- !u!64 &8730951615774007391
 MeshCollider:
