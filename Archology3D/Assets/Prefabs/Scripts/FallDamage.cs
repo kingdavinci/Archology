@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class FallDamage : MonoBehaviour
 {
+   // private float airTime;
+
     /*public bool grounded;
     private float airTime;
 
@@ -24,7 +26,7 @@ public class FallDamage : MonoBehaviour
     //are you on the ground
     void OnCollisionEnter(Collision theCollision)
     {
-        if (theCollision.gameObject.tag == "Ground")
+        if (theCollision.gameObject.tag == "ground")
         {
             grounded = true;
             airTime = 0;
@@ -34,7 +36,7 @@ public class FallDamage : MonoBehaviour
     //if character is jumping
     void OnCollisionExit(Collision theCollision)
     {
-        if (theCollision.gameObject.tag == "Ground")
+        if (theCollision.gameObject.tag == "ground")
         {
             grounded = false;
         }
