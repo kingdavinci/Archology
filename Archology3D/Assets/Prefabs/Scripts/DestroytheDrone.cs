@@ -11,7 +11,7 @@ public class DestroytheDrone : MonoBehaviour
     {
         void OnCollisionEnter(Collision Collision)
         {
-            if (Collision.gameObject.tag == "Enemy" || Collision.gameObject.tag == "Weapon")
+            if (Collision.gameObject.tag == "Weapon")
             {
                 Destroy(gameObject);
             }

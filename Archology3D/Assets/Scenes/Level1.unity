@@ -7008,6 +7008,11 @@ PrefabInstance:
       propertyPath: m_Height
       value: 7.64
       objectReference: {fileID: 0}
+    - target: {fileID: 2533918269484994503, guid: 09de9541e9e868045afbe58c817367f2,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8264731391619433717, guid: 09de9541e9e868045afbe58c817367f2, type: 3}
     - {fileID: -7410793545579119578, guid: 09de9541e9e868045afbe58c817367f2, type: 3}
@@ -21776,7 +21781,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh14572
+  m_Name: pb_Mesh14654
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -38061,6 +38066,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 336614034}
+    - target: {fileID: 2533918269484994503, guid: 09de9541e9e868045afbe58c817367f2,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 74
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09de9541e9e868045afbe58c817367f2, type: 3}
 --- !u!4 &6682197955641075677
