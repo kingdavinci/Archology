@@ -193,7 +193,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: NaN, z: 7.8e-44, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -637,7 +637,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FlashLight: {fileID: 1424426742}
-  HasFlashlight: 1
+  FlashlightInHand: {fileID: 0}
 --- !u!4 &1424426744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6765316982696753460, guid: 7965ff0dc5943314ba3f98a92bc951be,
