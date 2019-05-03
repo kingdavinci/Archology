@@ -8,7 +8,9 @@ public class FireExtinguisher : MonoBehaviour
     {
         if (Collision.gameObject.tag == "Player")
         {
-            Collision.gameObject.GetComponent<PlayerExtinguisher>().HasExtinguisher = true;
+            Debug.Log(Collision.gameObject.name);
+            Collision.gameObject.GetComponentInChildren<PlayerExtinguisher>().HasExtinguisher = true;
+            
             Destroy(gameObject);
         }
     }
