@@ -8,7 +8,7 @@ public class PlayerHP : MonoBehaviour
 {
     public bool grounded;
     public Rigidbody PlayerRB;
-    private float airTime;
+    public float airTime;
     public int HP = 10;
     public Text HPText;
    // public float fallHeight = 7f;
