@@ -16,7 +16,7 @@ public class Parachute : MonoBehaviour
         wearingParachute = false;
         usingParachute = false;
         grounded = true;
-        RFPC = GetComponent<RigidbodyFirstPersonController>().AirControl;
+        RFPC = GetComponent<RigidbodyFirstPersonController>();
         
     }
 
@@ -27,13 +27,14 @@ public class Parachute : MonoBehaviour
         {
             wearingParachute = false;
             usingParachute = true;
+            RFPC.advancedSettings.airControl = true;
         }
         if(usingParachute == true)
         {
             slowFall = GetComponent<Rigidbody>().velocity;
             slowFall.y = -2;
             GetComponent<Rigidbody>().velocity = slowFall;
-        
+            RFPC.advancedSettings.airControl = true;
         }
     }
     private void OnCollisionEnter(Collision collision)
