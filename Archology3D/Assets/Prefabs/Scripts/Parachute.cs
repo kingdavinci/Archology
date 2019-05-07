@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityStandardAssets.Characters.FirstPerson;
 [RequireComponent(typeof(RigidbodyFirstPersonController))]
 public class Parachute : MonoBehaviour
 {
@@ -16,7 +16,7 @@ public class Parachute : MonoBehaviour
         wearingParachute = false;
         usingParachute = false;
         grounded = true;
-        RFPC = GetComponent<RigidbodyFirstPersonController>();
+        RFPC = GetComponent<RigidbodyFirstPersonController>().AirControl;
         
     }
 
