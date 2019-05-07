@@ -15,17 +15,11 @@ public class EnemyProjectileRaycast : MonoBehaviour
         timer += Time.deltaTime;
         Vector3 playerPosition = player.transform.position;
         Vector3 chaseDirection = playerPosition - transform.position;
+        Vector3 shootDir = chaseDirection;
+        RaycastHit hit;
         if (chaseDirection.magnitude < chaseTriggerDistance && timer > 2.5f)
         {
-            timer = 0;
-            Vector3 shootDir = chaseDirection;
-            shootDir.Normalize();
-            Vector3 offset = shootDir;
-            shootDir = shootDir * shootSpeed;
-            //when calculating a vector from a to b
-            //always do destination - start position
-            GameObject Bullet = (GameObject)Instantiate(prefab, transform.position + offset, Quaternion.identity);
-            Bullet.GetComponent<Rigidbody>().velocity = shootDir;
+           
         }
     }
 }
