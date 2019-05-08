@@ -22,10 +22,6 @@ public class MedKit : MonoBehaviour
         if(collision.gameObject.tag == "MedKit")
         {
             Player.GetComponent<PlayerHP>().HP += Health;
-            if(Player.GetComponent<PlayerHP>().HP > 10)
-            {
-                Player.GetComponent<PlayerHP>().HP = 10;
-            }
             Destroy(gameObject);
         }
     }
