@@ -21,22 +21,25 @@ public class MedKit : MonoBehaviour
         if(timerStart)
         {
             timer += Time.deltaTime;
+            Debug.Log(timer);
             if(timer >= 3.5)
             {
                 Text.enabled = false;
                 timerStart = false;
                 timer = 0;
+                Debug.Log("hi");
             }
         }
     }
-    void OnTriggerEnter(Collider collision)
+    void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "MedKit")
+        if(collision.gameObject.tag == "Player")
         {
             Text.enabled = true;
             timerStart = true;
             Player.GetComponent<PlayerHP>().HP += Health;
-            Destroy(gameObject);
+            GetComponent<MeshCollider>().enabled = false;
+            GetComponent<MeshRenderer>().enabled = false;
         }
     }
 }
