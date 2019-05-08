@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Unstuck : MonoBehaviour
 {
+    public int StuckRoll = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +16,7 @@ public class Unstuck : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Q))
         {
-
+            StuckRoll = Random.Range(1, 4);
         }
     }
 }
