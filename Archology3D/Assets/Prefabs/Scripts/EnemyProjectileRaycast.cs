@@ -10,7 +10,7 @@ public class EnemyProjectileRaycast : MonoBehaviour
     Vector3 Distance;
     public float DistanceFrom;
     public float timer = 0;
-    public float shootSpeed = 10;
+    public float shootSpeed = 20;
     public bool IsAttacking;
 
     void Update()
@@ -20,24 +20,26 @@ public class EnemyProjectileRaycast : MonoBehaviour
         Distance = (EnemyPosition - PlayerPosition);
         DistanceFrom = Distance.magnitude;
 
-        // if enemy 20 from player attack
-        if (DistanceFrom >= 10.0)
+        // if enemy 15 from player attack
+        if (DistanceFrom <= 15.0)
         {
             IsAttacking = true;
         }
-        if (DistanceFrom <= 10.0)
+        if (DistanceFrom >= 15.0)
         {
             IsAttacking = false;
         }
 
         Vector3 destination;
-        if (IsAttacking == true)
+        timer += Time.deltaTime;
+        if (IsAttacking == true && timer > 5f)
         {
             destination = EnemyPosition - PlayerPosition;
             Vector3 velocity = destination - transform.position;
             velocity.Normalize();
             GameObject projectile = Instantiate(prefab, transform.position, Quaternion.identity);
             projectile.GetComponent<Rigidbody>().velocity = velocity * shootSpeed;
+            Destroy(projectile, 1f);
         }
     }
 }
