@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class DestroytheDrone : MonoBehaviour
 {
-    public GameObject Extinguisher;
 
     // Update is called once per frame
     void Update()
