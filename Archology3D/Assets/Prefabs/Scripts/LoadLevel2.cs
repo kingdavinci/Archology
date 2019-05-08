@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadWinScreen : MonoBehaviour
+public class LoadLevel2 : MonoBehaviour
 {
     void OnCollisionEnter(Collision collision)
     {
@@ -11,7 +11,7 @@ public class LoadWinScreen : MonoBehaviour
         //will load the win screen when player collides
         if (collision.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene("Winscreen");
+            SceneManager.LoadScene("Level2");
         }
     }
 }

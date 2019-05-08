@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadLevel2 : MonoBehaviour
+public class LoadLevel1 : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D collision)
     {
