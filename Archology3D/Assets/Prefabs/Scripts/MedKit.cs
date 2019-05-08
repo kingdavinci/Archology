@@ -26,6 +26,7 @@ public class MedKit : MonoBehaviour
             {
                 Player.GetComponent<PlayerHP>().HP = 10;
             }
+            Destroy(gameObject);
         }
     }
 }
