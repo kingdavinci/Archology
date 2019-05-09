@@ -6,7 +6,7 @@ public class MedKit : MonoBehaviour
 {
     public int Health;
     public GameObject Player;
-    public Text Text;
+    public GameObject text;
     private float timer;
     private bool timerStart = false;
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class MedKit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(timerStart)
+       /* if(timerStart)
         {
             timer += Time.deltaTime;
             Debug.Log(timer);
@@ -29,17 +29,19 @@ public class MedKit : MonoBehaviour
                 timer = 0;
                 Debug.Log("hi");
             }
-        }
+        }*/
     }
     void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            Text.enabled = true;
+            //Text.enabled = true;
             timerStart = true;
             Player.GetComponent<PlayerHP>().HP += Health;
-            GetComponent<MeshCollider>().enabled = false;
-            GetComponent<MeshRenderer>().enabled = false;
+            Destroy(gameObject);
+            text.GetComponent<CallUponText>().timer = 0;
+            //GetComponent<MeshCollider>().enabled = false;
+            //GetComponent<MeshRenderer>().enabled = false;
         }
     }
 }

@@ -7,6 +7,9 @@ public class Flashlight : MonoBehaviour
     public GameObject FlashLight;
    // public bool HasFlashlight;
     public GameObject FlashlightInHand;
+    private float timer;
+    private bool timerStart = false;
+    public GameObject text;
     // Update is called once per frame
     void Update()
     {
@@ -31,9 +34,11 @@ public class Flashlight : MonoBehaviour
     {
         if (Collision.gameObject.tag == "Player")
         {
+            timerStart = true;
             Destroy(FlashLight);
             FlashlightInHand.SetActive(true);
-           // HasFlashlight = true;
+            text.GetComponent<CallUponText>().timer = 0;
+            // HasFlashlight = true;
         }
       //  if (HasFlashlight == true)
        // {

@@ -11,6 +11,13 @@ public class Parachute : MonoBehaviour
     public Vector3 slowFall;
     public float airTime;
     float timer = 0;
+    public int maxAirTime;
+    private float timer2;
+    private bool timer2Start = false;
+    public GameObject text;
+    private float timer3;
+    private bool timer3Start = false;
+    public GameObject text2;
     RigidbodyFirstPersonController RFPC;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +26,7 @@ public class Parachute : MonoBehaviour
         usingParachute = false;
         grounded = true;
         RFPC = GetComponent<RigidbodyFirstPersonController>();
-        
+        maxAirTime = 8;
     }
 
     // Update is called once per frame
@@ -39,7 +46,9 @@ public class Parachute : MonoBehaviour
             GetComponent<Rigidbody>().velocity = slowFall;
             RFPC.advancedSettings.airControl = true;
             airTime += Time.deltaTime;
-            if(airTime >= 8.0)
+            timer3Start = true;
+            text2.GetComponent<CallUponText>().timer = 0;
+            if (airTime >= maxAirTime)
             {
                 RFPC.advancedSettings.airControl = false;
                 usingParachute = false;
@@ -50,10 +59,12 @@ public class Parachute : MonoBehaviour
     {
         if(collision.gameObject.tag == "Parachute")
         {
+            timer2Start = true;
             Destroy(collision.gameObject);
             wearingParachute = true;
+            text.GetComponent<CallUponText>().timer = 0;
         }
-        if(collision.gameObject.tag == "ground")
+        if (collision.gameObject.tag == "ground")
         {
             grounded = true;
             usingParachute = false;
