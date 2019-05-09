@@ -26,7 +26,7 @@ public class Parachute : MonoBehaviour
         usingParachute = false;
         grounded = true;
         RFPC = GetComponent<RigidbodyFirstPersonController>();
-        maxAirTime = 8;
+
     }
 
     // Update is called once per frame
