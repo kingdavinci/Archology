@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroytheDrone : MonoBehaviour
 {
-
+    public GameObject Drone;
     // Update is called once per frame
     void Update()
     {
@@ -12,7 +12,8 @@ public class DestroytheDrone : MonoBehaviour
         {
             if (Collision.gameObject.tag == "Weapon")
             {
-                Destroy(gameObject);
+                Destroy(Drone);
+                Destroy(Collision.gameObject);
             }
         }
     }

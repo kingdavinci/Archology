@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class EnemyProjectileRaycast : MonoBehaviour
 {
+    Vector3 Distance;
     public GameObject Player;
     public GameObject Enemy;
     public GameObject prefab;
-    Vector3 Distance;
     public float DistanceFrom;
     public float timer = 0;
     public float shootSpeed = 20;
@@ -30,38 +30,18 @@ public class EnemyProjectileRaycast : MonoBehaviour
             IsAttacking = false;
         }
 
+        //attack
         Vector3 destination;
         timer += Time.deltaTime;
-        if (IsAttacking == true && timer > 5f)
+        if (IsAttacking == true && timer >= 0.5f)
         {
             destination = EnemyPosition - PlayerPosition;
-            Vector3 velocity = destination - transform.position;
+            Vector3 velocity = -destination;
             velocity.Normalize();
             GameObject projectile = Instantiate(prefab, transform.position, Quaternion.identity);
             projectile.GetComponent<Rigidbody>().velocity = velocity * shootSpeed;
             Destroy(projectile, 1f);
+            timer = 0f;
         }
     }
 }
-
-
-
-/*public GameObject player;
-    public float chaseTriggerDistance = 3.0f;
-    public GameObject prefab;
-    public float shootSpeed = 10;
-    float timer = 0;
-
-    void Update()
-    {
-        timer += Time.deltaTime;
-        Vector3 playerPosition = player.transform.position;
-        Vector3 chaseDirection = playerPosition - transform.position;
-        Vector3 shootDir = chaseDirection;
-        RaycastHit hit;
-        if (chaseDirection.magnitude < chaseTriggerDistance && timer > 2.5f)
-        {
-           
-        }
-    }
-*/

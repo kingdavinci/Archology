@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 7890661361399525999}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,6 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa3a6ed4b50603541a4771d62cf7b87a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: {fileID: 0}
 --- !u!1 &7890661362448810297
 GameObject:
   m_ObjectHideFlags: 0
