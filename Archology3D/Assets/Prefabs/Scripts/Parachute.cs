@@ -43,11 +43,14 @@ public class Parachute : MonoBehaviour
         {
             slowFall = GetComponent<Rigidbody>().velocity;
             slowFall.y = -2;
+            slowFall.Normalize();
+            slowFall *= RFPC.movementSettings.ForwardSpeed/2;
             GetComponent<Rigidbody>().velocity = slowFall;
             RFPC.advancedSettings.airControl = true;
             airTime += Time.deltaTime;
             timer3Start = true;
             text2.GetComponent<CallUponText>().timer = 0;
+            Debug.Log(slowFall);
             if (airTime >= maxAirTime)
             {
                 RFPC.advancedSettings.airControl = false;
