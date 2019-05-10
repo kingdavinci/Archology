@@ -5,7 +5,9 @@ using UnityEngine;
 public class SpawnOnDiff : MonoBehaviour
 {
     public int difficultyNumber = 1;
+    public GameObject Enemy;
     public GameObject PauseMenu;
+    //public bool TurnOff;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,11 +24,17 @@ public class SpawnOnDiff : MonoBehaviour
         // }
         if (PauseMenu.GetComponent<MenuButtons>().diff == 2 && difficultyNumber == 2)
         {
-            GetComponent<MeshRenderer>().enabled = true;
+            // TurnOff = true;
+            GetComponent<SkinnedMeshRenderer>().enabled = true;
+            GetComponent<BoxCollider>().enabled = true;
+            Enemy.GetComponent<CapsuleCollider>().enabled = true;
         }
         else if (PauseMenu.GetComponent<MenuButtons>().diff == 3 && difficultyNumber >= 2)
         {
-            GetComponent<MeshRenderer>().enabled = true;
+            //   TurnOff = true;
+            GetComponent<SkinnedMeshRenderer>().enabled = true;
+            GetComponent<BoxCollider>().enabled = true;
+            Enemy.GetComponent<CapsuleCollider>().enabled = true;
         }
     }
 }
