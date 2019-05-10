@@ -385,7 +385,7 @@ Mesh:
     offset: 0
     size: 0
     path: 
-<<<<<<< HEAD
+
 --- !u!1 &27380095
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,8 +816,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48657437}
   m_Mesh: {fileID: 1708326032}
-=======
->>>>>>> 49cda444af2560b0423b82800b9b8cb2b2ffd4c5
+
 --- !u!43 &74632050
 Mesh:
   m_ObjectHideFlags: 0
@@ -9620,7 +9619,7 @@ Transform:
   m_Father: {fileID: 2093120931}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
-<<<<<<< HEAD
+
 --- !u!1 &683772328
 GameObject:
   m_ObjectHideFlags: 0
@@ -9841,8 +9840,7 @@ Transform:
   m_Father: {fileID: 1054756050}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> 49cda444af2560b0423b82800b9b8cb2b2ffd4c5
+
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
