@@ -8,13 +8,12 @@ public class DestroytheDrone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        void OnCollisionEnter(Collision Collision)
+    }
+    void OnCollisionEnter(Collision Collision)
+    {
+        if (Collision.gameObject.tag == "Weapon")
         {
-            if (Collision.gameObject.tag == "Weapon")
-            {
-                Destroy(Drone);
-                Destroy(Collision.gameObject);
-            }
+            Destroy(Drone);
         }
     }
 }

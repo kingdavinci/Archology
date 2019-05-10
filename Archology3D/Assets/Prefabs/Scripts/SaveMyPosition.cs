@@ -42,6 +42,7 @@ public class SaveMyPosition : MonoBehaviour
         data = new SaveData(transform.position);
         bf.Serialize(file, data);
         file.Close();
+        Debug.Log(savePath);
     }
     public void Load()
     {
