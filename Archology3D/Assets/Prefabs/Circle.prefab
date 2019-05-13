@@ -155,6 +155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 0}
+  Knockback: 50
+  Extinguisher: {fileID: 7890661361399525969}
 --- !u!1 &7890661362448810297
 GameObject:
   m_ObjectHideFlags: 0
