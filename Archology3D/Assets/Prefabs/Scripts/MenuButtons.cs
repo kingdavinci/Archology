@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 // to do:
-// WinScreen Menu Buttons
+// 
 // 
 //
 //
@@ -12,6 +12,7 @@ using UnityEngine.UI;
 public class MenuButtons : MonoBehaviour
 {
     //public Slider healthbar;
+    public GameObject Player;
     public GameObject PauseMenu;
     public GameObject UI;
     public GameObject DifficultySettings;
@@ -152,12 +153,12 @@ public class MenuButtons : MonoBehaviour
     }
     public void Load()
     {
-        SaveMyPosition saveMyPosition = gameObject.GetComponent<SaveMyPosition>();
+        SaveMyPosition saveMyPosition = Player.GetComponent<SaveMyPosition>();
         saveMyPosition.Load();
     }
     public void Save()
     {
-        SaveMyPosition saveMyPostion = gameObject.GetComponent<SaveMyPosition>();
+        SaveMyPosition saveMyPostion = Player.GetComponent<SaveMyPosition>();
         saveMyPostion.Save();
     }
 
