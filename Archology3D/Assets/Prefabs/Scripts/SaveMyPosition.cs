@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using UnityEngine.SceneManagement;
 
 public class SaveMyPosition : MonoBehaviour
 {
@@ -62,7 +63,12 @@ public class SaveData
     public float x;
     public float y;
     public float z;
+    Scene scene = SceneManager.GetActiveScene();
 
+    public void loadlevel(string scene)
+    {
+        SceneManager.LoadScene(scene);
+    }
     public SaveData(Vector3 postion)
     {
         x = postion.x;
