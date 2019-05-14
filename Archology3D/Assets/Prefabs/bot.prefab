@@ -261,11 +261,12 @@ GameObject:
   - component: {fileID: 2533918269484994500}
   - component: {fileID: 2533918269484994501}
   - component: {fileID: 4702373581820909860}
+  - component: {fileID: 817589669004294111}
   - component: {fileID: 2533918269484994503}
   - component: {fileID: -7410793545579119578}
   m_Layer: 0
   m_Name: bot
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -354,6 +355,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae1841dec7f39a34ebd244ce1aebdfe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &817589669004294111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2533918269484994498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db839cd60378b8b48aeeac054e8a5ae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Drone: {fileID: 2533918269484994498}
 --- !u!54 &2533918269484994503
 Rigidbody:
   m_ObjectHideFlags: 0
