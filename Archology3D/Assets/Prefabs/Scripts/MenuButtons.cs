@@ -131,6 +131,7 @@ public class MenuButtons : MonoBehaviour
     //Winscreen play again
     public void Playagain()
     {
+        PlayerPrefs.SetInt("HelpCanvas", 1);
         SceneManager.LoadScene("Level1");
     }
    //WinScreen Not to Play again
