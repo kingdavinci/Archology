@@ -272,7 +272,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.5904e-41, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: NaN, w: 1.05e-43}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -778,6 +778,10 @@ PrefabInstance:
     - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: movementSettings.JumpForce
       value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400004, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: advancedSettings.shellOffset
+      value: 0.01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
@@ -1347,7 +1351,7 @@ GameObject:
   - component: {fileID: 206024273256555668}
   m_Layer: 0
   m_Name: Flat2.011
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1593,7 +1597,7 @@ GameObject:
   - component: {fileID: 298364978361629250}
   m_Layer: 0
   m_Name: Flat2.007
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1960,7 +1964,7 @@ GameObject:
   - component: {fileID: 513830507339576981}
   m_Layer: 0
   m_Name: ThinStairs.018
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2040,7 +2044,7 @@ GameObject:
   - component: {fileID: 534877150559278452}
   m_Layer: 0
   m_Name: ThinStairs
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2596,7 +2600,7 @@ GameObject:
   - component: {fileID: 819471323525792316}
   m_Layer: 0
   m_Name: ThinStairs2.010
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2713,7 +2717,7 @@ GameObject:
   - component: {fileID: 874443152163096458}
   m_Layer: 0
   m_Name: Flat.017
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2763,7 +2767,7 @@ GameObject:
   - component: {fileID: 899734256892061148}
   m_Layer: 0
   m_Name: ThinStairs.002
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2882,7 +2886,7 @@ GameObject:
   - component: {fileID: 958855844201843660}
   m_Layer: 0
   m_Name: Flat.011
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2983,7 +2987,7 @@ GameObject:
   - component: {fileID: 1012259907627582813}
   m_Layer: 0
   m_Name: Flat2.010
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3041,7 +3045,7 @@ GameObject:
   - component: {fileID: 1019685652491987570}
   m_Layer: 0
   m_Name: ThinStairs.008
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3234,7 +3238,7 @@ GameObject:
   - component: {fileID: 1191056797534803229}
   m_Layer: 0
   m_Name: Flat2.008
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3359,7 +3363,7 @@ GameObject:
   - component: {fileID: 1224979379399684437}
   m_Layer: 0
   m_Name: MainStairs.001
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3409,7 +3413,7 @@ GameObject:
   - component: {fileID: 1252016842044903193}
   m_Layer: 0
   m_Name: Window.002
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3825,7 +3829,7 @@ GameObject:
   - component: {fileID: 1376246279150845087}
   m_Layer: 0
   m_Name: Flat.012
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4022,7 +4026,7 @@ GameObject:
   - component: {fileID: 1475491767782593407}
   m_Layer: 0
   m_Name: Flat2.005
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4302,7 +4306,7 @@ GameObject:
   - component: {fileID: 1569829635928727738}
   m_Layer: 0
   m_Name: ThinStairs2.018
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4352,7 +4356,7 @@ GameObject:
   - component: {fileID: 1571895035131263882}
   m_Layer: 0
   m_Name: Cube.001
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4452,7 +4456,7 @@ GameObject:
   - component: {fileID: 1604942662609881938}
   m_Layer: 0
   m_Name: ThinStairs.001
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4502,7 +4506,7 @@ GameObject:
   - component: {fileID: 1618346010134284903}
   m_Layer: 0
   m_Name: Flat.002
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4639,7 +4643,7 @@ GameObject:
   - component: {fileID: 1715242717664538591}
   m_Layer: 0
   m_Name: ThinStairs.010
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4986,7 +4990,7 @@ GameObject:
   - component: {fileID: 2025345306085328227}
   m_Layer: 0
   m_Name: Flat.008
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5113,7 +5117,7 @@ GameObject:
   - component: {fileID: 2045560096912700799}
   m_Layer: 0
   m_Name: ThinStairs.007
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5163,7 +5167,7 @@ GameObject:
   - component: {fileID: 2076360108328152192}
   m_Layer: 0
   m_Name: Floor2
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5559,7 +5563,7 @@ GameObject:
   - component: {fileID: 2330078196232711263}
   m_Layer: 0
   m_Name: Flat.015
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5718,7 +5722,7 @@ GameObject:
   - component: {fileID: 2446559887059002095}
   m_Layer: 0
   m_Name: ThinStairs2.017
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5768,7 +5772,7 @@ GameObject:
   - component: {fileID: 2450537580654428232}
   m_Layer: 0
   m_Name: Walls
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5900,7 +5904,7 @@ GameObject:
   - component: {fileID: 2481128511967693551}
   m_Layer: 0
   m_Name: Flat.003
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6023,7 +6027,7 @@ GameObject:
   - component: {fileID: 2592394189977058693}
   m_Layer: 0
   m_Name: Flat2.004
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6395,7 +6399,7 @@ GameObject:
   - component: {fileID: 2782438162606489160}
   m_Layer: 0
   m_Name: ThinStairs2.001
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6547,7 +6551,7 @@ GameObject:
   - component: {fileID: 2855147515736093675}
   m_Layer: 0
   m_Name: ThinStairs2.004
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6702,7 +6706,7 @@ GameObject:
   - component: {fileID: 2965077560164399940}
   m_Layer: 0
   m_Name: Flat2.006
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6849,7 +6853,7 @@ GameObject:
   - component: {fileID: 3107510301737376557}
   m_Layer: 0
   m_Name: ThinStairs2.015
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7069,7 +7073,7 @@ GameObject:
   - component: {fileID: 3268574276447226148}
   m_Layer: 0
   m_Name: Flat.001
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7119,7 +7123,7 @@ GameObject:
   - component: {fileID: 3292381655670537610}
   m_Layer: 0
   m_Name: Window.001
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7169,7 +7173,7 @@ GameObject:
   - component: {fileID: 3301340664734065258}
   m_Layer: 0
   m_Name: Cube.003
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7478,7 +7482,7 @@ GameObject:
   - component: {fileID: 3499636828116469814}
   m_Layer: 0
   m_Name: HallFloor
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7633,7 +7637,7 @@ GameObject:
   - component: {fileID: 3527499933369481171}
   m_Layer: 0
   m_Name: ThinStairs.014
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7757,7 +7761,7 @@ GameObject:
   - component: {fileID: 3570222273858737989}
   m_Layer: 0
   m_Name: ThinStairs.015
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7837,7 +7841,7 @@ GameObject:
   - component: {fileID: 3617791239175733906}
   m_Layer: 0
   m_Name: Flat2.002
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7887,7 +7891,7 @@ GameObject:
   - component: {fileID: 3627471492551981629}
   m_Layer: 0
   m_Name: Flat.005
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7993,7 +7997,7 @@ GameObject:
   - component: {fileID: 3698252832009215142}
   m_Layer: 0
   m_Name: Cube.002
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -8043,7 +8047,7 @@ GameObject:
   - component: {fileID: 3779732767104989223}
   m_Layer: 0
   m_Name: ThinStairs2.006
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8153,7 +8157,7 @@ GameObject:
   - component: {fileID: 3831423858328125885}
   m_Layer: 0
   m_Name: ThinStairs2.003
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8387,7 +8391,7 @@ GameObject:
   - component: {fileID: 3927812153390203616}
   m_Layer: 0
   m_Name: WindowBig
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8577,7 +8581,7 @@ GameObject:
   - component: {fileID: 4057951303304102828}
   m_Layer: 0
   m_Name: ThinStairs2.007
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8678,7 +8682,7 @@ GameObject:
   - component: {fileID: 4100590626351502881}
   m_Layer: 0
   m_Name: ThinStairs2.013
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8870,7 +8874,7 @@ GameObject:
   - component: {fileID: 4237983027869963717}
   m_Layer: 0
   m_Name: Flat2.019
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8920,7 +8924,7 @@ GameObject:
   - component: {fileID: 4244093093729334061}
   m_Layer: 0
   m_Name: ThinStairs.017
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9032,7 +9036,7 @@ GameObject:
   - component: {fileID: 4265965310996356536}
   m_Layer: 0
   m_Name: Flat2.003
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9090,7 +9094,7 @@ GameObject:
   - component: {fileID: 4286327214774829761}
   m_Layer: 0
   m_Name: Flat.022
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9173,7 +9177,7 @@ GameObject:
   - component: {fileID: 4342465758162893271}
   m_Layer: 0
   m_Name: ThinStairs.011
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9259,7 +9263,7 @@ GameObject:
   - component: {fileID: 4438113489624762331}
   m_Layer: 0
   m_Name: ThinStairs2
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9399,7 +9403,7 @@ GameObject:
   - component: {fileID: 4528521833840835957}
   m_Layer: 0
   m_Name: Flat.014
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9457,7 +9461,7 @@ GameObject:
   - component: {fileID: 4556450947139106243}
   m_Layer: 0
   m_Name: MainStairs
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9522,7 +9526,7 @@ GameObject:
   - component: {fileID: 4571646457499715450}
   m_Layer: 0
   m_Name: ThinStairs2.005
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9609,7 +9613,7 @@ GameObject:
   - component: {fileID: 4580641125734593134}
   m_Layer: 0
   m_Name: Flat2.017
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9696,7 +9700,7 @@ GameObject:
   - component: {fileID: 4598494184824996697}
   m_Layer: 0
   m_Name: Flat2.014
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10195,7 +10199,7 @@ GameObject:
   - component: {fileID: 4897653688392946987}
   m_Layer: 0
   m_Name: ThinStairs.006
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10270,7 +10274,7 @@ GameObject:
   - component: {fileID: 4941176736989915077}
   m_Layer: 0
   m_Name: Flat.009
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10439,7 +10443,7 @@ GameObject:
   - component: {fileID: 5041266469943470063}
   m_Layer: 0
   m_Name: ThinStairs.012
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10511,7 +10515,7 @@ GameObject:
   - component: {fileID: 5063121363328850971}
   m_Layer: 0
   m_Name: Flat2.016
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10869,7 +10873,7 @@ GameObject:
   - component: {fileID: 5199950813168256263}
   m_Layer: 0
   m_Name: Plank
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10973,7 +10977,7 @@ GameObject:
   - component: {fileID: 5254613140501521965}
   m_Layer: 0
   m_Name: Flat.004
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11421,7 +11425,7 @@ GameObject:
   - component: {fileID: 5496986691366207726}
   m_Layer: 0
   m_Name: Flat2.018
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11471,7 +11475,7 @@ GameObject:
   - component: {fileID: 5515678773539363599}
   m_Layer: 0
   m_Name: Cube.004
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11558,7 +11562,7 @@ GameObject:
   - component: {fileID: 5542722918274442862}
   m_Layer: 0
   m_Name: Flat
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11682,7 +11686,7 @@ GameObject:
   - component: {fileID: 5618915727938979274}
   m_Layer: 0
   m_Name: ThinStairs2.002
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11732,7 +11736,7 @@ GameObject:
   - component: {fileID: 5627222726841790586}
   m_Layer: 0
   m_Name: ThinStairs2.022
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11842,7 +11846,7 @@ GameObject:
   - component: {fileID: 5642100595410134966}
   m_Layer: 0
   m_Name: ThinStairs.019
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11951,7 +11955,7 @@ GameObject:
   - component: {fileID: 5704749961012115900}
   m_Layer: 0
   m_Name: Flat.013
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12061,7 +12065,7 @@ GameObject:
   - component: {fileID: 5783548724642616814}
   m_Layer: 0
   m_Name: ThinStairs2.021
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12179,7 +12183,7 @@ GameObject:
   - component: {fileID: 5799114319616144679}
   m_Layer: 0
   m_Name: ThinStairs2.019
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12237,7 +12241,7 @@ GameObject:
   - component: {fileID: 5812999417324435539}
   m_Layer: 0
   m_Name: ThinStairs.005
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12287,7 +12291,7 @@ GameObject:
   - component: {fileID: 5820317323262842947}
   m_Layer: 0
   m_Name: Flat2
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12351,7 +12355,7 @@ GameObject:
   - component: {fileID: 5867841067593667398}
   m_Layer: 0
   m_Name: ThinStairs.020
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13002,7 +13006,7 @@ GameObject:
   - component: {fileID: 6182067922076424998}
   m_Layer: 0
   m_Name: Flat.016
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13210,7 +13214,7 @@ GameObject:
   - component: {fileID: 6271510771848137680}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13260,7 +13264,7 @@ GameObject:
   - component: {fileID: 6274336926099353002}
   m_Layer: 0
   m_Name: Flat.021
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14250,7 +14254,7 @@ GameObject:
   - component: {fileID: 6716002116503848423}
   m_Layer: 0
   m_Name: ThinStairs2.014
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14571,7 +14575,7 @@ GameObject:
   - component: {fileID: 6918650073519023949}
   m_Layer: 0
   m_Name: Flat2.009
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14672,7 +14676,7 @@ GameObject:
   - component: {fileID: 6958995282665623587}
   m_Layer: 0
   m_Name: Window
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14924,7 +14928,7 @@ GameObject:
   - component: {fileID: 7117197247939138222}
   m_Layer: 0
   m_Name: Base2
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15041,7 +15045,7 @@ GameObject:
   - component: {fileID: 7196987630897481326}
   m_Layer: 0
   m_Name: Flat.019
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15106,7 +15110,7 @@ GameObject:
   - component: {fileID: 7233242051674788331}
   m_Layer: 0
   m_Name: Flat.006
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15245,7 +15249,7 @@ GameObject:
   - component: {fileID: 7364485629591590677}
   m_Layer: 0
   m_Name: ThinStairs2.011
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15295,7 +15299,7 @@ GameObject:
   - component: {fileID: 7384243884444247529}
   m_Layer: 0
   m_Name: ThinStairs2.016
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15435,7 +15439,7 @@ GameObject:
   - component: {fileID: 7442746400412960659}
   m_Layer: 0
   m_Name: ThinStairs2.020
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 8
@@ -15582,7 +15586,7 @@ GameObject:
   - component: {fileID: 7471355968838811869}
   m_Layer: 0
   m_Name: Flat.007
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15727,7 +15731,7 @@ GameObject:
   - component: {fileID: 7600544329427270272}
   m_Layer: 0
   m_Name: ThinStairs2.012
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15821,7 +15825,7 @@ GameObject:
   - component: {fileID: 7679115619473368235}
   m_Layer: 0
   m_Name: ThinStairs.016
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15993,7 +15997,7 @@ GameObject:
   - component: {fileID: 7706622664070647409}
   m_Layer: 0
   m_Name: ThinStairs2.009
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16079,7 +16083,7 @@ GameObject:
   - component: {fileID: 7770368496049296516}
   m_Layer: 0
   m_Name: Flat2.001
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16166,7 +16170,7 @@ GameObject:
   - component: {fileID: 7791958920394810084}
   m_Layer: 0
   m_Name: ThinStairs.013
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16467,7 +16471,7 @@ GameObject:
   - component: {fileID: 7901216136175502884}
   m_Layer: 0
   m_Name: ThinStairs.004
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16655,7 +16659,7 @@ GameObject:
   - component: {fileID: 7971362287544799312}
   m_Layer: 0
   m_Name: Flat2.012
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16705,7 +16709,7 @@ GameObject:
   - component: {fileID: 7978123018130323061}
   m_Layer: 0
   m_Name: Flat.020
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16832,7 +16836,7 @@ GameObject:
   - component: {fileID: 8022632263630168414}
   m_Layer: 0
   m_Name: Flat2.013
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16919,7 +16923,7 @@ GameObject:
   - component: {fileID: 8040564109819149051}
   m_Layer: 0
   m_Name: Flat2.015
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17277,7 +17281,7 @@ GameObject:
   - component: {fileID: 8310526048379290524}
   m_Layer: 0
   m_Name: Flat.018
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17366,7 +17370,7 @@ GameObject:
   - component: {fileID: 8378480428148364293}
   m_Layer: 0
   m_Name: ThinStairs.003
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17528,7 +17532,7 @@ GameObject:
   - component: {fileID: 8443271272718012309}
   m_Layer: 0
   m_Name: Flat.010
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17654,7 +17658,7 @@ GameObject:
   - component: {fileID: 8521857959829588374}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18127,7 +18131,7 @@ GameObject:
   - component: {fileID: 8984847237417685057}
   m_Layer: 0
   m_Name: ThinStairs2.008
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18254,7 +18258,7 @@ GameObject:
   - component: {fileID: 9042378400288046610}
   m_Layer: 0
   m_Name: ThinStairs.009
-  m_TagString: Untagged
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
