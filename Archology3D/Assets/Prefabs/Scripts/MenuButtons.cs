@@ -162,5 +162,9 @@ public class MenuButtons : MonoBehaviour
         SaveMyPosition saveMyPostion = Player.GetComponent<SaveMyPosition>();
         saveMyPostion.Save();
     }
+    public void ToInfoMenu()
+    {
+        SceneManager.LoadScene("StoryArcText");
+    }
 
 }

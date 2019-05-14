@@ -345,6 +345,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff0ab36830bf2664c9dee8ad44dc03cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
   PauseMenu: {fileID: 0}
   UI: {fileID: 0}
   DifficultySettings: {fileID: 0}
@@ -1067,6 +1068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff0ab36830bf2664c9dee8ad44dc03cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
   PauseMenu: {fileID: 0}
   UI: {fileID: 0}
   DifficultySettings: {fileID: 0}
@@ -1248,7 +1250,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1705009977}
-        m_MethodName: Playagain
+        m_MethodName: ToInfoMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1309,6 +1311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff0ab36830bf2664c9dee8ad44dc03cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Player: {fileID: 0}
   PauseMenu: {fileID: 0}
   UI: {fileID: 0}
   DifficultySettings: {fileID: 0}
