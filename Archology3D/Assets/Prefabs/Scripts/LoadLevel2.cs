@@ -9,7 +9,7 @@ public class LoadLevel2 : MonoBehaviour
     {
         //attaching this script to the portal
         //will load the win screen when player collides
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && )
         {
             SceneManager.LoadScene("Level2");
         }
