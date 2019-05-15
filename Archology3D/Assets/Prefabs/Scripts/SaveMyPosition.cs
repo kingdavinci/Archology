@@ -57,6 +57,7 @@ public class SaveMyPosition : MonoBehaviour
         }
     }
 }
+
 [System.Serializable]
 public class SaveData
 {
@@ -65,7 +66,7 @@ public class SaveData
     public float z;
     Scene scene = SceneManager.GetActiveScene();
 
-    public void loadlevel(string scene)
+    public SaveData(string scene)
     {
         SceneManager.LoadScene(scene);
     }
