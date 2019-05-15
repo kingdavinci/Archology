@@ -40,7 +40,7 @@ public class SaveMyPosition : MonoBehaviour
         {
             file = File.Open(savePath, FileMode.Open);
         }
-        data = new SaveData(transform.position);
+        data = new SaveData(transform.position, SceneManager.GetActiveScene());
         bf.Serialize(file, data);
         file.Close();
         Debug.Log(savePath);
@@ -65,17 +65,16 @@ public class SaveData
     public float y;
     public float z;
     Scene scene = SceneManager.GetActiveScene();
+    private Vector3 position;
 
-    public SaveData(string scene)
-    {
-        SceneManager.LoadScene(scene);
-    }
-    public SaveData(Vector3 postion)
+    public SaveData(Vector3 postion, Scene scene)
     {
         x = postion.x;
         y = postion.y;
         z = postion.z;
+        SceneManager.LoadScene(scene);
     }
+
     public Vector3 GetVector3()
     {
         return new Vector3(x, y, z);
