@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7890661361328371071}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: fireExtingisher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 7890661361399525997}
   - component: {fileID: 7890661361399525996}
   - component: {fileID: 7890661361399525999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Circle
   m_TagString: Weapon
   m_Icon: {fileID: 0}
@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 0}
+  rebound: 0
   Knockback: 50
   Extinguisher: {fileID: 7890661361399525969}
 --- !u!1 &7890661362448810297
@@ -167,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7890661362448810294}
   - component: {fileID: 7890661362448810295}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lamp
   m_TagString: Untagged
   m_Icon: {fileID: 0}

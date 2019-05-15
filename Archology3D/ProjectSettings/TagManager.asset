@@ -9,6 +9,7 @@ TagManager:
   - Parachute
   - Enemy
   - Weapon
+  - Flag
   layers:
   - Default
   - TransparentFX
@@ -18,9 +19,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Bullet
+  - EnemyBullet
+  - Player
   - 
   - 
   - 
