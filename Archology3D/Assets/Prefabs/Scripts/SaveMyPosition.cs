@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class SaveMyPosition : MonoBehaviour
 {
-    string savePath;
+   /* string savePath;
     SaveData data;
     void Start()
     {
