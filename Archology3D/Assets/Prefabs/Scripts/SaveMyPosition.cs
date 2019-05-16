@@ -5,10 +5,12 @@ using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using UnityEngine.SceneManagement;
 
+[System.Serializable]
 public class SaveMyPosition : MonoBehaviour
 {
     string savePath;
     SaveData data;
+
     void Start()
     {
         savePath = Application.persistentDataPath + "/" + gameObject.name + "mysave.dat";
@@ -40,7 +42,7 @@ public class SaveMyPosition : MonoBehaviour
         {
             file = File.Open(savePath, FileMode.Open);
         }
-        data = new SaveData(transform.position, SceneManager.GetActiveScene());
+        data = new SaveData(transform.position, SceneManager.GetActiveScene().name);
         bf.Serialize(file, data);
         file.Close();
         Debug.Log(savePath);
@@ -53,6 +55,7 @@ public class SaveMyPosition : MonoBehaviour
             FileStream file = File.Open(savePath, FileMode.Open);
             data = (SaveData)bf.Deserialize(file);
             file.Close();
+            //SceneManager.LoadScene();
             transform.position = data.GetVector3();
         }
     }
@@ -64,15 +67,14 @@ public class SaveData
     public float x;
     public float y;
     public float z;
-    Scene scene = SceneManager.GetActiveScene();
-    private Vector3 position;
+    string scene;
 
-    public SaveData(Vector3 postion, Scene scene)
+    public SaveData(Vector3 postion, string scene)
     {
         x = postion.x;
         y = postion.y;
         z = postion.z;
-        //SceneManager.LoadScene(scene);
+        this.scene = scene;
     }
 
     public Vector3 GetVector3()
