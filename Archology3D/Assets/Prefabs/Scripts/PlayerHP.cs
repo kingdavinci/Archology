@@ -11,6 +11,7 @@ public class PlayerHP : MonoBehaviour
     public float airTime;
     public int HP = 10;
     public Text HPText;
+    public GameObject LoseCanvas;
    // public float fallHeight = 7f;
    // float y = PlayerRB.velocity.y;
    // public Slider HPBar;
@@ -52,11 +53,13 @@ public class PlayerHP : MonoBehaviour
         }
         if (HP <= 0 && grounded)
         {
-            SceneManager.LoadScene("LoseScene");
+            LoseCanvas.SetActive(true);
+            Time.timeScale = 0;
         }
         if(HP <= -10)
         {
-            SceneManager.LoadScene("LoseScene");
+            LoseCanvas.SetActive(true);
+            Time.timeScale = 0;
         }
      }
     void Start()
@@ -77,7 +80,8 @@ public class PlayerHP : MonoBehaviour
            // HPBar.GetComponent<Slider>().value = HP;
             if (HP <= 0)
             {
-                SceneManager.LoadScene("LoseScene");
+                LoseCanvas.SetActive(true);
+                Time.timeScale = 0;
             }
         }
     }

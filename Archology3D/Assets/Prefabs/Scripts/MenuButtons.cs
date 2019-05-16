@@ -17,6 +17,7 @@ public class MenuButtons : MonoBehaviour
     public GameObject UI;
     public GameObject DifficultySettings;
     public int diff = 1;
+    public string Map;
     public void Start()
     {
         Time.timeScale = 1;
@@ -137,6 +138,7 @@ public class MenuButtons : MonoBehaviour
    //WinScreen Not to Play again
    public void Backtomenu()
     {
+        Time.timeScale = 1;
         PlayerPrefs.SetInt("HelpCanvas", 1);
         SceneManager.LoadScene("TitleScene");
     }
@@ -165,6 +167,10 @@ public class MenuButtons : MonoBehaviour
     public void ToInfoMenu()
     {
         SceneManager.LoadScene("StoryArcText");
+    }
+    public void loadScene()
+    {
+        SceneManager.LoadScene(Map);
     }
 
 }
