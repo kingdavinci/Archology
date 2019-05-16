@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class SaveMyPosition : MonoBehaviour
 {
-   /* string savePath;
+    string savePath;
     SaveData data;
     void Start()
     {
@@ -72,7 +72,7 @@ public class SaveData
         x = postion.x;
         y = postion.y;
         z = postion.z;
-        SceneManager.LoadScene(scene);
+        //SceneManager.LoadScene(scene);
     }
 
     public Vector3 GetVector3()
