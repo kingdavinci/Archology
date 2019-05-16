@@ -449,7 +449,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 20}
-  m_SizeDelta: {x: 1000, y: 700}
+  m_SizeDelta: {x: 1300, y: 700}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &760969742
 MonoBehaviour:
@@ -473,7 +473,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 12800000, guid: 29c3bbdb73ab2f94e862d0f1594e85a0, type: 3}
-    m_FontSize: 20
+    m_FontSize: 25
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -484,15 +484,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Welcome to Archology\n\nYour work for the FBI has been astonding.\nIn light
-    of the robot world takeover, you have been hired to retrieve all the peices of
-    infomation regrading their shutdown codes.\nThey are located in multiple buildings,
-    all of which are highly damaged. \nGetting there is no problem.\nThe problem is
-    getting past all the bots who will be alerted to your location.\nTo be recused
-    you need to to the bottom to the flag, which will alret others to your location.\nAlong
-    the way you may encounters objects left by other surviors, such as a parachute.\nMay
-    not be that good though.\nBE careful though. \nWhile these robots can hurt, nothing
-    is more lethal than a fall at terminal velocity.\n\nAre you ready agent?"
+  m_Text: 'Welcome to Archology
+
+
+    Your work for the FBI has been astonding. In light of the robot world takeover,
+    you have been hired to retrieve all the peices of infomation regrading their shutdown
+    codes. They are located in multiple buildings, all of which are highly damaged.  Getting
+    there is no problem. The problem will be getting past all the bots who will be
+    alerted to your location. To be recused you need to to the bottom to the flag,
+    which will alret backup to your location. Along the way you may encounters objects
+    left by other surviors, such as a parachute. May not be that good though. We are
+    dropping you in without weapons. To defend yourself, grab one of the building''s
+    fire extinguisher. These machines are blocking our coms, so you will need to destroy
+    two of them to allow us to locate you. While these robots can hurt, nothing is
+    more lethal than a fall at terminal velocity.
+
+
+    Are you ready agent?'
 --- !u!222 &760969743
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -686,6 +694,7 @@ MonoBehaviour:
   UI: {fileID: 0}
   DifficultySettings: {fileID: 0}
   diff: 1
+  Map: 
 --- !u!1 &1214800250
 GameObject:
   m_ObjectHideFlags: 0
