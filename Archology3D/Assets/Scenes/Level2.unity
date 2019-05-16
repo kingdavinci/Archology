@@ -2373,7 +2373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 3
   Enemy: {fileID: 1680171223}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &334723781
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2939,6 +2939,12 @@ Transform:
   m_Father: {fileID: 97944261}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &385228372 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 132645218, guid: 747b2dd24742a01488b0a112ccd848b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1860387218}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &396719419
 GameObject:
   m_ObjectHideFlags: 0
@@ -3383,7 +3389,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 2
   Enemy: {fileID: 586133225}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &440047065
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6078,7 +6084,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 2
   Enemy: {fileID: 1106771437}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &775980503
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6284,7 +6290,7 @@ MonoBehaviour:
   airTime: 0
   HP: 10
   HPText: {fileID: 2117706896}
-  LoseCanvas: {fileID: 0}
+  LoseCanvas: {fileID: 385228372}
 --- !u!54 &787641321 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 5400000, guid: c6453f8e1f814744d8b94e5a6d1f9942,
@@ -6796,7 +6802,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 2
   Enemy: {fileID: 1800388996}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &861967297
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8493,7 +8499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 3
   Enemy: {fileID: 1264234452}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &1122174754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9756,7 +9762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 3
   Enemy: {fileID: 347198874}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &1324957457
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11649,6 +11655,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582870796}
   m_CullTransparentMesh: 0
+--- !u!114 &1583359211 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7303090691107181333, guid: 747b2dd24742a01488b0a112ccd848b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1860387218}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1860387219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0ab36830bf2664c9dee8ad44dc03cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1587154233
 GameObject:
   m_ObjectHideFlags: 0
@@ -12300,7 +12318,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 3
   Enemy: {fileID: 1853580995}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &1669006030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13988,6 +14006,108 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &1860387218
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7303090690632215561, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 549.2894
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 256.3712
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -580.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090690632215560, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303090691107181333, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 787641316}
+    - target: {fileID: 7303090690536755132, guid: 747b2dd24742a01488b0a112ccd848b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 563529404, guid: 747b2dd24742a01488b0a112ccd848b0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1583359211}
+    - target: {fileID: 563529404, guid: 747b2dd24742a01488b0a112ccd848b0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Save
+      objectReference: {fileID: 0}
+    - target: {fileID: 938982290, guid: 747b2dd24742a01488b0a112ccd848b0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1583359211}
+    - target: {fileID: 938982290, guid: 747b2dd24742a01488b0a112ccd848b0, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Load
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 938982289, guid: 747b2dd24742a01488b0a112ccd848b0, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 747b2dd24742a01488b0a112ccd848b0, type: 3}
+--- !u!1 &1860387219 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7303090691107181330, guid: 747b2dd24742a01488b0a112ccd848b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1860387218}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1866158729
 GameObject:
   m_ObjectHideFlags: 0
@@ -14627,7 +14747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 2
   Enemy: {fileID: 491981345}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &1962172425
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15962,7 +16082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 3
   Enemy: {fileID: 2077368439}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &2134238442
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29647,7 +29767,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 2
   Enemy: {fileID: 2533918269730876053}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!65 &8264731392469753627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29694,7 +29814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   difficultyNumber: 3
   Enemy: {fileID: 2533918269171323948}
-  PauseMenu: {fileID: 500960906}
+  PauseMenu: {fileID: 1860387219}
 --- !u!4 &8265159269413327983
 Transform:
   m_ObjectHideFlags: 0

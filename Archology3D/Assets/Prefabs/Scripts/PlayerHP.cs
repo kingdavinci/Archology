@@ -53,11 +53,15 @@ public class PlayerHP : MonoBehaviour
         }
         if (HP <= 0 && grounded)
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             LoseCanvas.SetActive(true);
             Time.timeScale = 0;
         }
         if(HP <= -10)
         {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
             LoseCanvas.SetActive(true);
             Time.timeScale = 0;
         }
@@ -80,6 +84,8 @@ public class PlayerHP : MonoBehaviour
            // HPBar.GetComponent<Slider>().value = HP;
             if (HP <= 0)
             {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
                 LoseCanvas.SetActive(true);
                 Time.timeScale = 0;
             }
