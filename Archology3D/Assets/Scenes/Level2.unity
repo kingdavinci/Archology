@@ -25871,7 +25871,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 787641316}
   chaseSpeed: 15
-  chaseTriggerDistance: 25
+  chaseTriggerDistance: 28
   paceDirection: {x: 0, y: 9, z: 0}
   paceDistance: 70
   paceSpeed: 2
