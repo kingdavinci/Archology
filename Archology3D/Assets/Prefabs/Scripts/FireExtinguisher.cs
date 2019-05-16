@@ -11,9 +11,14 @@ public class FireExtinguisher : MonoBehaviour
     public bool rebound = false;
     public int Knockback = 50;
     public GameObject Extinguisher;
-
+    public bool collideWithPlayer = false;
     void Update()
     {
+        timer += Time.deltaTime;
+        if(timer > 5.0f)
+        {
+            collideWithPlayer = true;
+        }
         /*if (timerStart)
         {
             timer += Time.deltaTime;
@@ -44,15 +49,15 @@ public class FireExtinguisher : MonoBehaviour
     }
     void OnCollisionEnter(Collision Collision)
     {
-        if (!(Collision.gameObject.tag == "ground"))
+        if (!(Collision.gameObject.tag == "ground") && !(Collision.gameObject.tag == "Player"))
         {
             rebound = true;
         }
-        if (Collision.gameObject.tag == "Player")
+        if (Collision.gameObject.tag == "Player" && collideWithPlayer)
         {
             //Text.enabled = true;
             timerStart = true;
-            Debug.Log(Collision.gameObject.name);
+            Debug.Log(Collision.collider.gameObject.name);
             Collision.gameObject.GetComponentInChildren<PlayerExtinguisher>().HasExtinguisher = true;
             Destroy(gameObject);
             text.GetComponent<CallUponText>().timer = 0;

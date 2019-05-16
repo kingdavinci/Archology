@@ -692,7 +692,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh453214
+  m_Name: pb_Mesh113430
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2003,7 +2003,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &634863150
 Transform:
   m_ObjectHideFlags: 0
@@ -3959,6 +3959,10 @@ PrefabInstance:
       propertyPath: airTime
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 1168424878, guid: 6ae605de1f44aa541b0afe76e9ca21c7, type: 3}
+      propertyPath: HP
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 1168424883, guid: 6ae605de1f44aa541b0afe76e9ca21c7, type: 3}
       propertyPath: text
       value: 
@@ -3967,6 +3971,27 @@ PrefabInstance:
       propertyPath: text2
       value: 
       objectReference: {fileID: 1124855026}
+    - target: {fileID: 1168424880, guid: 6ae605de1f44aa541b0afe76e9ca21c7, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 590519075, guid: 6ae605de1f44aa541b0afe76e9ca21c7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.57
+      objectReference: {fileID: 0}
+    - target: {fileID: 590519075, guid: 6ae605de1f44aa541b0afe76e9ca21c7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 590519075, guid: 6ae605de1f44aa541b0afe76e9ca21c7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 590519076, guid: 6ae605de1f44aa541b0afe76e9ca21c7, type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 7890661361399525969, guid: 233991874cc06ed4ca9c4dbb61f9929d,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ae605de1f44aa541b0afe76e9ca21c7, type: 3}
 --- !u!1001 &1071994624
