@@ -15,9 +15,9 @@ public class FireExtinguisher : MonoBehaviour
     void Update()
     {
         timer += Time.deltaTime;
-        if(timer > 5.0f)
+        if(timer > 1.0f)
         {
-            collideWithPlayer = true;
+            gameObject.layer = 8;
         }
         /*if (timerStart)
         {
@@ -49,15 +49,15 @@ public class FireExtinguisher : MonoBehaviour
     }
     void OnCollisionEnter(Collision Collision)
     {
+        Debug.Log(Collision.gameObject.name);
         if (!(Collision.gameObject.tag == "ground") && !(Collision.gameObject.tag == "Player"))
         {
             rebound = true;
         }
-        if (Collision.gameObject.tag == "Player" && collideWithPlayer)
+        if (Collision.gameObject.tag == "Player")
         {
             //Text.enabled = true;
             timerStart = true;
-            Debug.Log(Collision.collider.gameObject.name);
             Collision.gameObject.GetComponentInChildren<PlayerExtinguisher>().HasExtinguisher = true;
             Destroy(gameObject);
             text.GetComponent<CallUponText>().timer = 0;
