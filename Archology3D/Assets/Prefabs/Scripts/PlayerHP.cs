@@ -12,6 +12,8 @@ public class PlayerHP : MonoBehaviour
     public int HP = 10;
     public Text HPText;
     public GameObject LoseCanvas;
+    private Vector3 position;
+
    // public float fallHeight = 7f;
    // float y = PlayerRB.velocity.y;
    // public Slider HPBar;
@@ -20,6 +22,7 @@ public class PlayerHP : MonoBehaviour
 
      void Update()   
      {
+        position = transform.position;
       //  Debug.Log(PlayerRB.velocity.y);
         HPText.GetComponent<Text>().text = "Health: " + HP;
         timer += Time.deltaTime;
@@ -68,9 +71,18 @@ public class PlayerHP : MonoBehaviour
      }
     void Start()
     {
+        
         HPText.GetComponent<Text>().text = "Health: " + HP;
         //  HPBar.GetComponent<Slider>().value = HP;
         PlayerRB = GetComponent<Rigidbody>();
+        if(PlayerPrefs.GetInt("ShouldLoadPosition") == 1)
+        {
+            position.x = PlayerPrefs.GetFloat("x");
+            position.y = PlayerPrefs.GetFloat("y");
+            position.z = PlayerPrefs.GetFloat("z");
+            PlayerPrefs.SetInt("ShouldLoadPosition", 0);
+
+        }
     }
 
 

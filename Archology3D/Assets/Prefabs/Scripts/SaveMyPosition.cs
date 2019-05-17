@@ -57,8 +57,13 @@ public class SaveMyPosition : MonoBehaviour
             FileStream file = File.Open(savePath, FileMode.Open);
             data = (SaveData)bf.Deserialize(file);
             file.Close();
-            SceneManager.LoadScene();
+            SceneManager.LoadScene(data.scene);
             transform.position = data.GetVector3();
+            PlayerPrefs.SetInt("ShouldLoadPosition", 1);
+            PlayerPrefs.SetFloat("x", data.x);
+            PlayerPrefs.SetFloat("y", data.y);
+            PlayerPrefs.SetFloat("z", data.z);
+
         }
     }
 }
