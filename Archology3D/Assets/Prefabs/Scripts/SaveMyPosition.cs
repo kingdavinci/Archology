@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 [System.Serializable]
 public class SaveMyPosition : MonoBehaviour
 {
+    public string scene;
     string savePath;
     SaveData data;
 
@@ -55,7 +56,7 @@ public class SaveMyPosition : MonoBehaviour
             FileStream file = File.Open(savePath, FileMode.Open);
             data = (SaveData)bf.Deserialize(file);
             file.Close();
-            //SceneManager.LoadScene();
+            SceneManager.LoadScene(scene);
             transform.position = data.GetVector3();
         }
     }
@@ -67,7 +68,8 @@ public class SaveData
     public float x;
     public float y;
     public float z;
-    string scene;
+    public string scene;
+
 
     public SaveData(Vector3 postion, string scene)
     {
