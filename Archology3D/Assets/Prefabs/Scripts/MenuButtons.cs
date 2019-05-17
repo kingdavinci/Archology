@@ -27,7 +27,7 @@ public class MenuButtons : MonoBehaviour
     }
     public void Update()
     {
-        Debug.Log(PlayerPrefs.GetInt("Difficulty"));
+        //Debug.Log(PlayerPrefs.GetInt("Difficulty"));
         //Debug.Log(PlayerPrefs.GetInt("Difficulty"));
         if (Input.GetKeyDown(KeyCode.P) & Time.timeScale == 1)
         {
