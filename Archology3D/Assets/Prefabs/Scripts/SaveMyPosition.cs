@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 [System.Serializable]
 public class SaveMyPosition : MonoBehaviour
 {
-    public string scene;
+    public string map;
     string savePath;
     SaveData data;
 
@@ -20,6 +20,7 @@ public class SaveMyPosition : MonoBehaviour
 
     void Update()
     {
+      
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             Save();
@@ -56,7 +57,7 @@ public class SaveMyPosition : MonoBehaviour
             FileStream file = File.Open(savePath, FileMode.Open);
             data = (SaveData)bf.Deserialize(file);
             file.Close();
-            SceneManager.LoadScene(scene);
+            SceneManager.LoadScene();
             transform.position = data.GetVector3();
         }
     }
