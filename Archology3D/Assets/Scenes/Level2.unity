@@ -1531,7 +1531,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Flag
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8153485963831426182, guid: 952d759068383de4a9b0246a91072f62, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 952d759068383de4a9b0246a91072f62, type: 3}
 --- !u!1 &130295495
 GameObject:
@@ -5379,7 +5380,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 29c3bbdb73ab2f94e862d0f1594e85a0, type: 3}
     m_FontSize: 14
     m_FontStyle: 0
     m_BestFit: 0
@@ -8517,7 +8518,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1180
+  m_Name: pb_Mesh-28764
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9622,6 +9623,24 @@ Transform:
   m_Father: {fileID: 2106422575}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &887594520 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8153485961829857808, guid: 952d759068383de4a9b0246a91072f62,
+    type: 3}
+  m_PrefabInstance: {fileID: 120398327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &887594526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887594520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3dbf908dc08b1547bde72b935527135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &900900231
 GameObject:
   m_ObjectHideFlags: 0
@@ -16740,7 +16759,7 @@ RectTransform:
   m_GameObject: {fileID: 1709349778}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 12}
   m_Children:
   - {fileID: 473601411}
   m_Father: {fileID: 7303090690656080523}
@@ -16748,7 +16767,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -8, y: 191}
+  m_AnchoredPosition: {x: 8, y: 191}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1709349780
@@ -17055,7 +17074,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1716945499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 80f24ea36f9e9164a8dfba14cff7423a, type: 3}
+  m_Script: {fileID: 11500000, guid: b3dbf908dc08b1547bde72b935527135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1720405290
@@ -19758,6 +19777,24 @@ Transform:
   m_Father: {fileID: 1148448350}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1968997975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8153485963831426184, guid: 952d759068383de4a9b0246a91072f62,
+    type: 3}
+  m_PrefabInstance: {fileID: 120398327}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1968997977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968997975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3dbf908dc08b1547bde72b935527135, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1972944292
 GameObject:
   m_ObjectHideFlags: 0
@@ -20067,7 +20104,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1178
+  m_Name: pb_Mesh-28762
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -34985,7 +35022,7 @@ Canvas:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7303090690656080512}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_RenderMode: 0
   m_Camera: {fileID: 0}
